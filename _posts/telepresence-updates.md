@@ -14,6 +14,7 @@ Telepresence system consists of webRTC and Arduino, where server = web server an
 - Does the robot needs constructing at this time or is the main priority for now the software fix?
 - How to power up computer to robot? How does it work remotely?
 - Which network does the robot connect to?
+- Ask Michael for a work laptop -- mine can't handle any more software :(
 
 ## Brainstorm around why the audio doesn't work:
 - Buggy code?
