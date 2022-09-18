@@ -1,7 +1,7 @@
 # Amina's updates on the telepresence robot
 
 ## Investigating why webRTC isn't working:
-- "Starting with Asterisk 12 you need to have pjproject libraries installed, otherwise you most likely won't have audio in your WebRTC calls and no warning whatsoever!" (source)[https://stackoverflow.com/questions/28501309/no-audio-in-webrtc-and-asterisk]
+- "Starting with Asterisk 12 you need to have pjproject libraries installed, otherwise you most likely won't have audio in your WebRTC calls and no warning whatsoever!" [https://stackoverflow.com/questions/28501309/no-audio-in-webrtc-and-asterisk](source)
 
 ## Meeting notes:
 - [x] Got server to work on Amina's laptop
