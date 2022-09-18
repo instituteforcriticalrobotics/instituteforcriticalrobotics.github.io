@@ -2,8 +2,14 @@
 
 ## Step-By-Step Tutorial
 
-Draft
+### Brainstorming & Establishing Requirements
 
-- Talk about the process before soldering -- breaking it down and thinking generally of what the best way to connect everything would be.
-- Insert images while talking about the step-by-step process
-- Show the overall function of the shield?
+Before we get into the physical work of connecting and soldering everything on the prototype shield, we must first understand where everything goes. In this particular case, we are working with a radio that will be recieving transmissions. The radio itself consists of three main elements: a row that connects to power, a row that connects to ground, and a row that for the signals in the radio. That means that we are going to need 3 rows of header pins connected to the board: a place for the radio to connect to.
+
+Next, we need to think of the wiring. What pins should connect to what element in the radio? 
+
+### Soldering Process
+
+### Final Result
+
+### Testing the Shield
