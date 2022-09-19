@@ -9,7 +9,9 @@ Before we get into the physical work of connecting and soldering everything on t
 <img width="355" alt="Screen Shot 2022-09-18 at 8 51 11 PM" src="https://user-images.githubusercontent.com/70956039/190919188-da48097f-de2b-496c-bf5a-d9bd88e72865.png">
 
 
-Next, we need to think of the wiring. What pins should connect to what element in the radio? In this case it was rather simple to figure out. As mentioned, we must have a row connected to 5V and another connected to ground. In that sense, we did not have to make many deisions. We just needed to properly wire the correct row to the correct bus on the prototype shield. As for the last row, the one dedicated to the signal, we have to think of what would be the most convenient. 
+Next, we need to think of the wiring. What pins should connect to what element in the radio? In this case it was rather simple to figure out. As mentioned, we must have a row connected to 5V and another connected to ground. In that sense, we did not have to make many deisions. We just needed to properly wire the correct row to the correct bus on the prototype shield. As for the last row, the one dedicated to the signal, we have to think of what would be the most convenient. In this case, we only needed to wire 4 of the signal pins, which made this task much easier. Based on convienience, it was decided that the pins would be wired as shown below:
+
+(insert sketch i drew)
 
 ### Soldering Process
 
