@@ -1,6 +1,6 @@
 # Prototype Shield Documentation
 
-## Step-By-Step Tutorial
+## Step-By-Step Tutorial by Aalya and Ahmed
 
 ### Brainstorming & Establishing Requirements
 
