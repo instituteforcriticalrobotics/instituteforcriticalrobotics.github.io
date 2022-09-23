@@ -1,5 +1,11 @@
 # Amina's updates on the telepresence robot
 
+# Sep 22-23 Summary
+- Checking if the website uses microphone:
+  - so the website asks for the video permission in the beginning, but never does so for the microphone, so it's never initialized. this is why (my guess) we hear no audio (see screenshot attached). But this doesn't seem to resolve it.
+- here's what I found as well "you need to open and forward UDP ports 9100-9199 to the pbx in firewall/router for the audio." (https://www.3cx.com/community/threads/webrtc-no-audio.40818/)
+- A lot of [workarounds/fixes](https://community.asterisk.org/t/asterisk-16-4-webrtc-no-audio/83624) for audio involve diving into server or http config settings. I have little understanding of this, so perhaps should schedule some time with Jack to see if I can get help
+
 # Sep 20 Summary
 - [x] Tested video output with home-setup
 - [x] Researched JS and HTML documentation for sound output [here](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Video_and_audio_content). Continue looking more into this next time.
