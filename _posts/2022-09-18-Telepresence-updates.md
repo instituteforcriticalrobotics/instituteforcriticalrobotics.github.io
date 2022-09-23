@@ -4,7 +4,9 @@
 - Checking if the website uses microphone:
   - so the website asks for the video permission in the beginning, but never does so for the microphone, so it's never initialized. this is why (my guess) we hear no audio (see screenshot attached). But this doesn't seem to resolve it.
 - here's what I found as well "you need to open and forward UDP ports 9100-9199 to the pbx in firewall/router for the audio." (https://www.3cx.com/community/threads/webrtc-no-audio.40818/)
-- A lot of [workarounds/fixes](https://community.asterisk.org/t/asterisk-16-4-webrtc-no-audio/83624) for audio involve diving into server or http config settings. I have little understanding of this, so perhaps should schedule some time with Jack to see if I can get help
+- A lot of [workarounds/fixes](https://community.asterisk.org/t/asterisk-16-4-webrtc-no-audio/83624) for audio involve diving into SIP trace / server / http config settings. I have little understanding of this, so perhaps should schedule some time with Jack to see if I can get help
+- "All WebRTC clients are inside local network, so ICE isn't needed here. But the bad way - ICE is the problem here. I've made a lot of tests and found that if call initiator is Web RTC client and there is some delay in answer (10-25 seconds) - audio is completely absent. Also in this case in RTP debug can be seen than "sent RTP packet" doesn't have "via ICE" mark. But when call initiator is any SIP client (X-Lite, Ekiga, etc) - WebRTC works perfectly. And the answer (as I think) is in rtcp-mux - wich can't do Asterisk but Sofia (SIP library for FreeSwitch) can"
+- Should I follow a new tutorial to replicate this?
 
 # Sep 20 Summary
 - [x] Tested video output with home-setup
