@@ -1,5 +1,9 @@
 # Amina's updates on the telepresence robot
 
+# Sep 24 Summary:
+- In webrtc.js there indeed was a line (75) that never asked for microphone permission! I will toggle the audio to true and see what happens.
+  - Created a pull request with changes -> ask Michael to invite me as a collaborator to the repository. Otherwise, I am unable to test the changes.
+
 # Sep 22-23 Summary
 - Checking if the website uses microphone:
   - so the website asks for the video permission in the beginning, but never does so for the microphone, so it's never initialized. this is why (my guess) we hear no audio (see screenshot attached). But this doesn't seem to resolve it.
