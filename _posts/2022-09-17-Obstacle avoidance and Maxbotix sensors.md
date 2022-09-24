@@ -61,5 +61,6 @@ Questions:
 
 - How to connect sensors in the most efficient way?
     - Parallel, serial 
+- Do these sensors need a movable stand or is it enough to have a stable stand considering these sensors will only measure distances?
 
 *24th September 2022 - Connecting sensors*
