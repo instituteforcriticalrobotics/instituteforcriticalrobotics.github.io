@@ -4,6 +4,9 @@
 - In webrtc.js there indeed was a line (75) that never asked for microphone permission! I will toggle the audio to true and see what happens.
   - Created a pull request with changes -> ask Michael to invite me as a collaborator to the repository. Otherwise, I am unable to test the changes.
 - Was able to progress in understanding a bit thanks to this [video](https://www.youtube.com/watch?v=WmR9IMUD_CY). However, still don't understand the receiver/client/non-robot part of the video -- need to dig deeper through the codebase.
+- Question to Michael: can there be more than one client/non-robot interactor? If so, how would that be ensured? Right now it seems like anyone can join and take "control" of the Arduino. What if there are conflicts?
+- What is the difference between [this telepresence repository](https://github.com/michaelshiloh/telepresence) and [this with webRTC](https://github.com/michaelshiloh/webRTC)? The first one is the one with Python code.
+- As far as it seems, pressing on buttons doesn't work because they aren't really connected to the Arduino code. In the backend, the button commands aren't linked with Arduino-specific commands, so that's why we get the error message. To fix this, we need to define these commands in the backend and link the code/codebases.
 
 # Sep 22-23 Summary
 - Checking if the website uses microphone:
