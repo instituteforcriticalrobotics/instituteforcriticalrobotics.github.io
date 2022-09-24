@@ -3,6 +3,7 @@
 # Sep 24 Summary:
 - In webrtc.js there indeed was a line (75) that never asked for microphone permission! I will toggle the audio to true and see what happens.
   - Created a pull request with changes -> ask Michael to invite me as a collaborator to the repository. Otherwise, I am unable to test the changes.
+- Was able to progress in understanding a bit thanks to this [video](https://www.youtube.com/watch?v=WmR9IMUD_CY). However, still don't understand the receiver/client/non-robot part of the video -- need to dig deeper through the codebase.
 
 # Sep 22-23 Summary
 - Checking if the website uses microphone:
