@@ -64,3 +64,38 @@ Questions:
 - Do these sensors need a movable stand or is it enough to have a stable stand considering these sensors will only measure distances?
 
 *24th September 2022 - Connecting sensors*
+
+**Connecting a single independent sensor**
+
+Sensor Operation
+- Analog Output
+- Pulse Width Output
+- **Serial Output**
+  - most suitable
+ 
+![308472249_915875292705933_6893240304914835347_n](https://user-images.githubusercontent.com/94536332/192132208-c6ea6d56-6e5d-4129-8b83-1ca295c3d393.jpg)
+
+**Using Multiple sensors in a system**
+
+Three most common ways:
+
+### AN Output Commanded loop
+not suitable: The first sensor will range, then trigger the next and the same for all other sensors in the array, once the last sensor has ranged, it stops until the first is triggered. We need the loop to continously continue to be able to detect the distance for a longer time. 
+
+### AN Output Constantly looping
+First sensor ranges, then triggers the other and so on for all the sensors in the array. Once the last sensor has ranged, it will trigger the first sensor and continue in looping. 
+This loop could be suitable, however, it is not ideal since we need all the sensors to work at the same time. On the other hand, Arduino works quite fast so this approach could work. It needs to be tested. 
+
+![308395700_2255833637902672_2317292943274531609_n](https://user-images.githubusercontent.com/94536332/192133779-c3e1115c-d9f2-4eb4-b1ae-b17834d7c152.jpg)
+
+
+### AN Output Simultaneous Operation
+This does not work for all applications and it is very sensitive for the positioning of the sensors. Needs to be carefully tested, however, if this one works, it will be the best option. 
+All the sensors RX pins are connected to each other and triggered at the same time causing all the sensors to take a range reading at the same time. However, once the reading is completed the sensors stop ranging until triggered next time. 
+
+Questions to figure out:
+- Is the reading going to continue when we change the distance by moving the robot with its engine? 
+- How to do simultaneous operation in a loop to continue measuring?
+- Is there a way how to trigger sensor again after every measurement?
+
+![308194339_616174906886704_6373462202449362368_n](https://user-images.githubusercontent.com/94536332/192133802-4f64d121-d64d-4613-8133-e45687d0a26e.jpg)
