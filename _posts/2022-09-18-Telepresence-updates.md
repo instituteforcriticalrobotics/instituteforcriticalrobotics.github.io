@@ -1,5 +1,14 @@
 # Amina's updates on the telepresence robot
 
+# Sep 27 Summary:
+- Good news: the audio now works on the robot's side -- do we need this? Should the audio only work on the client's side? Investigate that further.
+
+# Sep 25 Meeting notes:
+- Check with Alia Waleed on last semester's codebase for network connection
+- Completed the Raspberry Pi setup on the computer
+- Merged pull request
+- Continue with debugging and meet in two weeks
+
 # Sep 24 Summary:
 - In webrtc.js there indeed was a line (75) that never asked for microphone permission! I will toggle the audio to true and see what happens.
   - Created a pull request with changes -> ask Michael to invite me as a collaborator to the repository. Otherwise, I am unable to test the changes.
