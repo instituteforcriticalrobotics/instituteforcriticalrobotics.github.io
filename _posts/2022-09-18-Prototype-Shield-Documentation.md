@@ -34,7 +34,7 @@ Next, we need to think of the wiring. What pins should connect to what element i
 - Placement of the iron on the board, how it allows the solder to flow, etc...
 - It should be shaped like a cone, shouldn't go up too high on the wire, etc...
 
-## Final Touches
+**Final Touches**
 
 - Trimming wires that are long so short circuits are not caused
 
