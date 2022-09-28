@@ -2,7 +2,7 @@
 
 ## Step-By-Step Tutorial by Aalya and Ahmed
 
-### Brainstorming & Establishing Requirements
+## Brainstorming & Establishing Requirements
 
 Before we get into the physical work of connecting and soldering everything on the prototype shield, we must first understand where everything goes. In this particular case, we are working with a radio that will be recieving transmissions. The radio itself consists of three main elements: a row that connects to power, a row that connects to ground, and a row that for the signals in the radio. That means that we are going to need 3 rows of header pins connected to the board: a place for the radio to connect to. You can find an image attached below in order to get a clearer understanding. You can see the bottom row (the far left on the screen) is dedicated to the signal. You can see the channels are labeled from 1 - 6. Next, the middle row is labeled positive, meaning it needs to be connected to 5V on the arduino. Finally, the top row (far right on the screen) is dedicated to ground, which is what it needs to be connected to on the arduino. 
 
@@ -13,8 +13,29 @@ Next, we need to think of the wiring. What pins should connect to what element i
 
 (insert sketch i drew)
 
-### Soldering Process
+## Soldering Process
 
-### Final Result
+**Preparing the Header Pins**
 
-### Testing the Shield
+- Cutting the header pins for the radio
+- Mention the big header pins (the ones that connect to the arduino)
+- How it should be cut in a way that ensures that it fits into the radio
+
+**Preparing the Wires**
+
+- Stripping the wires
+- bending them so they fit nicely
+- measuring their length
+
+**Soldering to the Shield**
+
+- Show images of the actual soldering process
+- Mention some tricks and tips that help with soldering
+- Placement of the iron on the board, how it allows the solder to flow, etc...
+- It should be shaped like a cone, shouldn't go up too high on the wire, etc...
+
+## Final Touches
+
+- Trimming wires that are long so short circuits are not caused
+
+## Testing the Shield
