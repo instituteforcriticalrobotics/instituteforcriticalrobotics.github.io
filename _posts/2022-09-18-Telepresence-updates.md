@@ -2,8 +2,18 @@
 
 # Sep 29 Summary:
 - Discovered that on the client's side audio was muted; enabled it.
-- Do we need the audio to play on the robot's side?
-- Testing continued with Aalya
+- Do we need the audio to play on the robot's side? Disabled it on robot but in a way that still plays on client.
+- Testing continued with Aalya!
+- Now that's audio is fixed, figuring out the server situation on Raspberry Pi. Helpful links found:
+  - https://roboticsbackend.com/raspberry-pi-arduino-serial-communication/
+  - https://ljvmiranda921.github.io/notebook/2017/02/21/send-data-from-rpi-to-server/
+  - https://www.instructables.com/Connecting-Your-Raspberry-Pi-to-the-Web/
+  - https://www.youtube.com/watch?v=Kt5_9h84CrQ
+  - https://stackoverflow.com/questions/22036754/send-data-from-raspberrypi-to-webserver - this looks kind of helpful
+- Question to Michael: what do you mean when one presses "stop"? Stop the motors from running? Pause the video? Exit from the web-page?
+- TO-DO:
+  - [ ] fix UI/UX after improved functionality
+  - [ ] clean up the code into functions
 
 # Sep 27 Summary:
 - Good news: the audio now works on the robot's side -- do we need this? Should the audio only work on the client's side? Investigate that further.
