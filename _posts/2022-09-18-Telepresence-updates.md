@@ -1,5 +1,10 @@
 # Amina's updates on the telepresence robot
 
+# Sep 29 Summary:
+- Discovered that on the client's side audio was muted; enabled it.
+- Do we need the audio to play on the robot's side?
+- Testing continued with Aalya
+
 # Sep 27 Summary:
 - Good news: the audio now works on the robot's side -- do we need this? Should the audio only work on the client's side? Investigate that further.
 
