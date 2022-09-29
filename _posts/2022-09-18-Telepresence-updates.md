@@ -12,6 +12,7 @@
   - https://stackoverflow.com/questions/22036754/send-data-from-raspberrypi-to-webserver - this looks kind of helpful
 - Question to Michael: what do you mean when one presses "stop"? Stop the motors from running? Pause the video? Exit from the web-page?
 - TO-DO:
+  - [ ] raspi connection to server and then to arduino
   - [ ] fix UI/UX after improved functionality
   - [ ] clean up the code into functions
 
