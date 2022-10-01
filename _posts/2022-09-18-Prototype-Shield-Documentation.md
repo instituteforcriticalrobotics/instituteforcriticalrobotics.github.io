@@ -29,6 +29,28 @@ Next, we need to think of the wiring. What pins should connect to what element i
 
 **Soldering to the Shield**
 
+Once the wires have been shaped and fitted to their respective locations, it is important to correctly solder them to the board and establish a connection. Solder the wires to the board using the soldering iron and wound up solder. Bring the Solder close to the wire and let the iron melt the solder onto the board. Solder is a conductive material that melts at around the 300 degree mark ont he soldering iron, which should not be turn up any higher than 350 degrees celcius. 
+
+Show picture of Soldering onto the board
+
+A clean soldered connection should have a cone like shape as the wire connects the pin to the board. This cone shape takes up less space and is helpful in make sure there are not shorted connections. Some tips are shared as to how to best clean up any mishapen or extra soldered connection in the final touches section below. Though the board would work with mishapen connections with extra solder that isnt touching any other connection, it is still helpful to make each connection as clean as possible
+
+Show underside of the board image
+
+One helpful tip for getting the wires flush and as close to the surface of the board as possible is to first establish a loose soldered connection without worrying about how close the wire is to the board. Now that the connection has been made, you can have the iron in one hand and press onto the wire from the back with the other. Reheat the soldered connection to release the wire and then press the wire down towards the board with the other hand. This will solidify with the wire flush onto the board however be careful not to have your hand there for too loing as it will be very hot, as the wire weill conduct heat.
+
+Estalbish the soldered connections of each wire near the analogue pins. Now it is important to connect the wire to the headers. Use the tweezers to bend the wire towards the pins of the soldered down header as shown in the image below. This will make it much easier to establish a clean connection. Then, int he same fashion as the other connections, solder the wire to the pin, thereby connecting the wire to the headers.
+
+Show picture of headers
+
+Now that the wires are connected and the motor inputs have a way of being received, the shield must have a way to receive power and be grounded. Wires will have to be run to the 5V and the GND bus, located on the top left of the board.
+
+show image of the 5V and GND bus/ column
+
+In a similar way, solder the wires that have already been made down in the same fashion as the previous connections. Place the wire and solder down the ends to the bus/ column. Then, bend the excess wire near the headers towards the header pins to ease connection and solder the two together. 
+Show image of all the sodlered connection
+
+
 - Show images of the actual soldering process
 - Mention some tricks and tips that help with soldering
 - Placement of the iron on the board, how it allows the solder to flow, etc...
@@ -36,6 +58,7 @@ Next, we need to think of the wiring. What pins should connect to what element i
 
 **Final Touches**
 
-- Trimming wires that are long so short circuits are not caused
+One final note is to make sure everything is trimmed and flush. Any excess wire poking out (as shown in the image below) should be trimmed down and closer to the board. Any soldered connections that are too wide or have too much solder should be cleaned up. This can be done in a multitude of different ways. One effective way is my using the suction apartus in the transparent ins on your desk. This is used to suck up any excess heated solder. Press down on the top of the suction to engage the equipment. Use the iron the heat up the solder the press the small black button on the front near the middle of the suction apartatus to suck up the solder. Another way is to heat up the solder to take it onto the iron then clean the iron on the wound up steel wool (gold) on the table. These are both effective ways in cleaning up the soldered connections. Make sure there is not excess solder randomly on the board as this could cause unintentionally short circtuits in the future.
+
 
 ## Testing the Shield
