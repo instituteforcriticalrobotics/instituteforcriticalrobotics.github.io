@@ -62,3 +62,20 @@ One final note is to make sure everything is trimmed and flush. Any excess wire 
 
 
 ## Testing the Shield
+
+To test the shield, connect the radio to the board by inserting it into the headers. Place the shield onto the arduino and connect the arduino to a computer in order to uplaod the testing code. The testing code can be found ont he link below
+
+https://github.com/michaelshiloh/resourcesForClasses/blob/master/src/arduinoSketches/hobbyRC/minimalMoreChannels/minimalMoreChannels.ino
+
+Make sure to complie the code to make sure everything is working (the circle with a tick) then upload it onto the board, by selecting the board as a port in the top tool bar and clicking the right arrow next to the complining check button. Once the code is uploaded, the arduino and shield is ready to be tested.
+
+To establish a connection between the radio adn the transmitter, bring the transmitter (remote) close to the board and press the small button on he back of the board. This can be found in a small indent and can be reached by pressing it with a thing object like a pen. Hold this down untilt he light on the radio stops flashing. now the connection has been established.
+
+Open the serial monitor on the arduino app on the computer. This should show 4 different values if the connection has been properly establsihed. As you test the 4 inputs on the transmitter, the value in each respective column should change. the four values are
+
+1)
+2)
+3)
+4)
+
+with each change in input, the output reading on the serial monitor will change. Take note of any input that is not causing a change in output on the serial monitor. This would probably mean that one of the soldered connections is faulty and that a reevaluation of the connection is in order. If none of the readings are changing, then it is either that all the soldered connections were not made or the connection between the radio adn transmitter was not established. redo any of the steps accordinly to make sure a proper reading is given.
