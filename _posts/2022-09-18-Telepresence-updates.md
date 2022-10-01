@@ -1,5 +1,10 @@
 # Amina's updates on the telepresence robot
 
+# Oct 1 Summary:
+- Browsing information about raspi and sockets; so the goal is to make raspi read from the server or to start a server on its own?
+- if it starts a server, then it needs socket programming; [this video is a good example](https://www.youtube.com/watch?v=QihjI84Z2tQ)
+- correct if my understanding is wrong: robot (raspi) starts the server; client connects and sees the video and audio with webRTC; client can press buttons and that will trigger raspi to respond by sending info to arduino.
+
 # Sep 29 Summary:
 - Discovered that on the client's side audio was muted; enabled it.
 - Do we need the audio to play on the robot's side? Disabled it on robot but in a way that still plays on client.
