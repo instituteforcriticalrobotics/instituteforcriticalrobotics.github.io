@@ -21,7 +21,7 @@ There are two kinds of header pins we need for this particular project. First, t
 
 ![IMG_6985](https://user-images.githubusercontent.com/70956039/193660275-3432a2e8-c9e3-433d-af4a-45608a6f1a66.jpg)
 
-Next, you need to cut it based on what you need. In our case, the radio consists of 3 rows (with 6 pins in each). That means we need to have three strips in total, each of which can hold 6 pins. In order to properly cut the header strip, you need to count how many pins you need, and on cut on the next pin over. Meaning, if you need 6 pins, you cut the strip on the 7th strip. Make sure you leave enough distance to ensure that it is the amount of pins you require. It is always better to have more than less. 
+Next, you need to cut it based on what you need. In our case, the radio consists of 3 rows (with 6 pins in each). That means we need to have three strips in total, each of which can hold 6 pins. In order to properly cut the header strip, you need to count how many pins you need, and on cut on the next pin over. Meaning, if you need 6 pins, you cut the strip on the 7th pin. Make sure you leave enough distance to ensure that it is the amount of pins you require. It is always better to have more than less. 
 
 ![IMG_6989](https://user-images.githubusercontent.com/70956039/193661088-b23e61ea-90b6-4439-b0a2-c3a3bf29346e.JPG)
 
@@ -43,6 +43,8 @@ These header pins are somewhat faulty. If you focus on the edge of the pins, you
 Eventually, you will reach what is shown above, a stage where the header pins fit into the radio. 
 
 **Preparing the Wires**
+
+Next, we need to prepare the wires prior to the soldering process. 
 
 - Stripping the wires
 - bending them so they fit nicely
