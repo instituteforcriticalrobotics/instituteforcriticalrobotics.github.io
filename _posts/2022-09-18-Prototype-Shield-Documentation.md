@@ -17,9 +17,30 @@ Next, we need to think of the wiring. What pins should connect to what element i
 
 **Preparing the Header Pins**
 
-- Cutting the header pins for the radio
-- Mention the big header pins (the ones that connect to the arduino)
-- How it should be cut in a way that ensures that it fits into the radio
+There are two kinds of header pins we need for this particular project. First, the header pins that will connect the arduino. This is pretty straightforward, as the only thing you really have to do is make sure you pick the correct number of pins that will fit into the arduino. These are the ones that go to the side of the shield, that will later slide into the arduino. Second, you need header pins toin order to connect your radio to the shield. For this, you begin by grabbing a strip of header pins.
+
+![IMG_6985](https://user-images.githubusercontent.com/70956039/193660275-3432a2e8-c9e3-433d-af4a-45608a6f1a66.jpg)
+
+Next, you need to cut it based on what you need. In our case, the radio consists of 3 rows (with 6 pins in each). That means we need to have three strips in total, each of which can hold 6 pins. In order to properly cut the header strip, you need to count how many pins you need, and on cut on the next pin over. Meaning, if you need 6 pins, you cut the strip on the 7th strip. Make sure you leave enough distance to ensure that it is the amount of pins you require. It is always better to have more than less. 
+
+![IMG_6989](https://user-images.githubusercontent.com/70956039/193661088-b23e61ea-90b6-4439-b0a2-c3a3bf29346e.JPG)
+
+Once you cut it, you need to make sure that it fits into the radio before you solder it onto the board, otherwise it would be diffcult to fix it later. If it fits into the radio, then you are good to go. If not, here is what you should do:
+
+1. Grab a small cutter, one that you can easily control and maneuvre
+2. Try to cut off any excess off the header pin
+3. Make sure that the sides and corners of the header pin are all straight, with no parts sticking out as that would prevent it from sliding into the radio
+4. It is all about trial and error. Try cutting it where you think is needed, and then check if it fits in the radio. If not, try again until you eventually get it!
+
+Here are images to help visualize the process:
+
+![IMG_7001](https://user-images.githubusercontent.com/70956039/193662447-ae899196-44d3-4d89-935e-b4ca7aa09c55.JPG)
+
+These header pins are somewhat faulty. If you focus on the edge of the pins, you can see that it is not straight. For some of them, it is comign down at a slant and at an angle. Those are the parts of the header pin you want to cut off.
+
+![IMG_7007](https://user-images.githubusercontent.com/70956039/193663072-7e39b770-9397-4be5-b024-a25d2d699b2f.jpg)
+
+Eventually, you will reach what is shown above, a stage where the header pins fit into the radio. 
 
 **Preparing the Wires**
 
@@ -29,7 +50,7 @@ Next, we need to think of the wiring. What pins should connect to what element i
 
 **Soldering to the Shield**
 
-Once the wires have been shaped and fitted to their respective locations, it is important to correctly solder them to the board and establish a connection. Solder the wires to the board using the soldering iron and wound up solder. Bring the Solder close to the wire and let the iron melt the solder onto the board. Solder is a conductive material that melts at around the 300 degree mark ont he soldering iron, which should not be turn up any higher than 350 degrees celcius. 
+Once the wires have been shaped and fitted to their respective locations, it is important to correctly solder them to the board and establish a connection. Solder the wires to the board using the soldering iron and wound up solder. Bring the Solder close to the wire and let the iron melt the solder onto the board. Solder is a conductive material that melts at around the 300 degree mark on the soldering iron, which should not be turn up any higher than 350 degrees celcius. 
 
 Show picture of Soldering onto the board
 
