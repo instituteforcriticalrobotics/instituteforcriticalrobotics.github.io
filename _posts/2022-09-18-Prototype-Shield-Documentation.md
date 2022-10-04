@@ -58,13 +58,13 @@ Once the wires have been shaped and fitted to their respective locations, it is 
 
 A clean soldered connection should have a cone like shape as the wire connects the pin to the board. This cone shape takes up less space and is helpful in make sure there are not shorted connections. Some tips are shared as to how to best clean up any mishapen or extra soldered connection in the final touches section below. Though the board would work with mishapen connections with extra solder that isnt touching any other connection, it is still helpful to make each connection as clean as possible.
 
-<img src="https://user-images.githubusercontent.com/54836827/193810457-34626089-ded3-43cb-afd7-3356fd6040b9.JPG width=50% height=50%>
+<img src="https://user-images.githubusercontent.com/54836827/193810457-34626089-ded3-43cb-afd7-3356fd6040b9.JPG" width=50% height=50%>
 
 One helpful tip for getting the wires flush and as close to the surface of the board as possible is to first establish a loose soldered connection without worrying about how close the wire is to the board. Now that the connection has been made, you can have the iron in one hand and press onto the wire from the back with the other. Reheat the soldered connection to release the wire and then press the wire down towards the board with the other hand. This will solidify with the wire flush onto the board however be careful not to have your hand there for too loing as it will be very hot, as the wire weill conduct heat.
 
 Estalbish the soldered connections of each wire near the analogue pins. Now it is important to connect the wire to the headers. Use the tweezers to bend the wire towards the pins of the soldered down header as shown in the image below. This will make it much easier to establish a clean connection. Then, int he same fashion as the other connections, solder the wire to the pin, thereby connecting the wire to the headers.
 
-<img src="https://user-images.githubusercontent.com/54836827/193809024-58858a80-e939-4327-83b1-bb789a86cff8.JPG width=50% height=50%>
+<img src="https://user-images.githubusercontent.com/54836827/193809024-58858a80-e939-4327-83b1-bb789a86cff8.JPG" width=50% height=50%>
 
 Now that the wires are connected and the motor inputs have a way of being received, the shield must have a way to receive power and be grounded. Wires will have to be run to the 5V and the GND bus, located on the top left of the board.
 
