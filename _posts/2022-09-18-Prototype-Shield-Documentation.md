@@ -64,7 +64,7 @@ One helpful tip for getting the wires flush and as close to the surface of the b
 
 Estalbish the soldered connections of each wire near the analogue pins. Now it is important to connect the wire to the headers. Use the tweezers to bend the wire towards the pins of the soldered down header as shown in the image below. This will make it much easier to establish a clean connection. Then, int he same fashion as the other connections, solder the wire to the pin, thereby connecting the wire to the headers.
 
-![IMG_1835](https://user-images.githubusercontent.com/54836827/193808788-6cab3e89-c72f-4e23-a5f4-f72bd3b2f803.JPG | width=100)
+![IMG_1835](https://user-images.githubusercontent.com/54836827/193808788-6cab3e89-c72f-4e23-a5f4-f72bd3b2f803.JPG =50x50)
 
 Now that the wires are connected and the motor inputs have a way of being received, the shield must have a way to receive power and be grounded. Wires will have to be run to the 5V and the GND bus, located on the top left of the board.
 
