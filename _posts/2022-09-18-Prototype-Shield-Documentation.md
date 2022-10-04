@@ -66,18 +66,10 @@ Estalbish the soldered connections of each wire near the analogue pins. Now it i
 
 <img src="https://user-images.githubusercontent.com/54836827/193811102-96c86e95-861f-49fe-a998-4d391804375b.JPG" width=50% height=50%>
 
-Now that the wires are connected and the motor inputs have a way of being received, the shield must have a way to receive power and be grounded. Wires will have to be run to the 5V and the GND bus, located on the top left of the board.
+Now that the wires are connected and the motor inputs have a way of being received, the shield must have a way to receive power and be grounded. Wires will have to be run to the 5V and the GND bus, located on the top left of the board. In a similar way, solder the wires that have already been made down in the same fashion as the previous connections. Place the wire and solder down the ends to the bus/ column. Then, bend the excess wire near the headers towards the header pins to ease connection and solder the two together. 
 
-show image of the 5V and GND bus/ column
+<img src="https://user-images.githubusercontent.com/54836827/193812820-3978f4fc-7431-4b9f-9ca8-737146c12bac.jpg" width=50% height=50%>
 
-In a similar way, solder the wires that have already been made down in the same fashion as the previous connections. Place the wire and solder down the ends to the bus/ column. Then, bend the excess wire near the headers towards the header pins to ease connection and solder the two together. 
-Show image of all the sodlered connection
-
-
-- Show images of the actual soldering process
-- Mention some tricks and tips that help with soldering
-- Placement of the iron on the board, how it allows the solder to flow, etc...
-- It should be shaped like a cone, shouldn't go up too high on the wire, etc...
 
 **Final Touches**
 
@@ -88,23 +80,27 @@ One final note is to make sure everything is trimmed and flush. Any excess wire 
 
 ## Testing the Shield
 
-To test the shield, connect the radio to the board by inserting it into the headers. Place the shield onto the arduino and connect the arduino to a computer in order to uplaod the testing code. The testing code can be found ont he link below
+To test the shield, connect the radio to the board by inserting it into the headers. Make sure it is placed aligned with the correct signal, 5V and GND as expressed previously. The images below show the makeup of the radio as well as the correct placement. Place the shield onto the arduino and connect the arduino to a computer in order to upload the testing code. 
+
+<img src="https://nwzimg.wezhan.net/contents/sitefiles3604/18021148/images/3841491.jpg" width=50% height=50%>
+
+<img src="https://user-images.githubusercontent.com/54836827/193811554-67bf9349-e86f-4f40-8320-ac70bb82e11b.jpg" width=50% height=50%>
+
+Copy the code into the arduino window. Once this is done, read through the code to better understand what it is doing. This code uses a library called "EnableInterupt" which can be downloaded as a library. To do this, click on "sketch" in the top toolbar, open up the manage library feature, then search for and install the EnalbeInterrupt library. The testing code can be found using the link below
 
 https://github.com/michaelshiloh/resourcesForClasses/blob/master/src/arduinoSketches/hobbyRC/minimalMoreChannels/minimalMoreChannels.ino
 
-Copy the code into the arduino window. Once this is done, read through the code to better understand what it is doing. This code uses a library called "EnableInterupt" which can be downloaded as a library. To do this, click on "sketch" in the top toolbar, open up the manage library feature, then search for and install the EnalbeInterrupt library.
-
 Make sure to complie the code to make sure everything is working (the circle with a tick) then upload it onto the board. To do this, Click on the Tools feature in the top tool bar and select "AruinoUno" as the board. To select the board as a port to be uploaded onto, in the same Tool menu, open the port selection and select the Arduino Uno. To uplaod, click on the right arrow button next to the compiling tick in the main window. Once the code is uploaded, the arduino and shield is ready to be tested.
 
-To establish a connection between the radio and the transmitter, bring the transmitter (remote) close to the board. Then, press the small button on the back of the board the radio component attached to the board. This can be found in a opening at the back of teh board and can be reached by pressing it with a thin object like a pen. As you hold it down the green light on the radio will begin to falsh rapidly. Hold down the button until the light stops flashing and stays clearly on. Now the connection has been established.
-
-Show Button on Radio
+To establish a connection between the radio and the transmitter, bring the transmitter (remote) close to the board. Then, press the small button on the back of the board the radio component (as shown int he radio image above). This can be found in an opening at the back of the board and can be reached by pressing it with a thin object like a pen. As you hold it down the green light on the radio will begin to falsh rapidly. Hold down the button until the light stops flashing and stays clearly on. Now the connection has been established.
 
 Open the serial monitor on the arduino app on the computer. This should show 4 different values if the connection has been properly establsihed. As you test the 4 inputs on the transmitter, the value in each respective column should change. The four inputs are
 
-1) Ch1 - Wheel (Trim Lever): Controls Direction
-2) Ch2 - Trigger (Throttle): Controls thorttle/ power output
-3) Ch3 - VR Knob           : Custom output
-4) Ch4 - SWA (tact switch) : Custom Output
+1) Ch1 - Wheel (Trim Lever): Controls Steering/ Directoin
+2) Ch2 - Trigger (Throttle): Controls Thorttle/ Power Output
+3) Ch3 - VR Knob           : Auxillary (Custom Output)
+4) Ch4 - SWA (tact switch) : Auxillary (Custom Output)
 
-With each change in input (pressing or turning), the output reading on the serial monitor will change. Take note of any input that is not causing a change in output on the serial monitor. This would probably mean that one of the soldered connections is faulty and that a reevaluation of the connection is in order. If none of the readings are changing, then it is either that all the soldered connections were not made or the connection between the radio adn transmitter was not established. redo any of the steps accordinly to make sure a proper reading is given.
+With each change in input (pressing or turning), the output reading on the serial monitor will change. Take note of any input that is not causing a change in output on the serial monitor. This would probably mean that one of the soldered connections is faulty and that a reevaluation of the connection is in order. If none of the readings are changing, then it is either that all the soldered connections were not made or the connection between the radio adn transmitter was not established. redo any of the steps accordinly to make sure a proper reading is given. 
+
+If everything functions properly, the radio is now connected and is ready to use.
