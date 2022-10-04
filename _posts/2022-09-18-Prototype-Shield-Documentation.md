@@ -64,7 +64,7 @@ One helpful tip for getting the wires flush and as close to the surface of the b
 
 Estalbish the soldered connections of each wire near the analogue pins. Now it is important to connect the wire to the headers. Use the tweezers to bend the wire towards the pins of the soldered down header as shown in the image below. This will make it much easier to establish a clean connection. Then, int he same fashion as the other connections, solder the wire to the pin, thereby connecting the wire to the headers.
 
-![IMG_1835](https://user-images.githubusercontent.com/54836827/193808788-6cab3e89-c72f-4e23-a5f4-f72bd3b2f803.JPG =50x50)
+<img src="https://user-images.githubusercontent.com/54836827/193809024-58858a80-e939-4327-83b1-bb789a86cff8.JPG width=50% height=50%>
 
 Now that the wires are connected and the motor inputs have a way of being received, the shield must have a way to receive power and be grounded. Wires will have to be run to the 5V and the GND bus, located on the top left of the board.
 
@@ -83,7 +83,7 @@ Show image of all the sodlered connection
 
 One final note is to make sure everything is trimmed and flush. Any excess wire poking out (as shown in the image below) should be trimmed down and closer to the board. Any soldered connections that are too wide or have too much solder should be cleaned up. This can be done in a multitude of different ways. One effective way is my using the suction apartus in the transparent ins on your desk. This is used to suck up any excess heated solder. Press down on the top of the suction to engage the equipment. Use the iron the heat up the solder the press the small black button on the front near the middle of the suction apartatus to suck up the solder. Another way is to heat up the solder to take it onto the iron then clean the iron on the wound up steel wool (gold) on the table. These are both effective ways in cleaning up the soldered connections. Make sure there is not excess solder randomly on the board as this could cause unintentionally short circtuits in the future.
 
-![IMG_1837](https://user-images.githubusercontent.com/54836827/193808333-452f275f-d1d3-4a04-a4a6-7358eeeac28f.JPG)
+<img src="https://user-images.githubusercontent.com/54836827/193809109-d3ca73d5-c401-49b1-bef7-e7e3890f8539.jpg" width=50% height=50%>
 
 
 ## Testing the Shield
