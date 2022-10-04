@@ -90,15 +90,19 @@ To test the shield, connect the radio to the board by inserting it into the head
 
 https://github.com/michaelshiloh/resourcesForClasses/blob/master/src/arduinoSketches/hobbyRC/minimalMoreChannels/minimalMoreChannels.ino
 
-Make sure to complie the code to make sure everything is working (the circle with a tick) then upload it onto the board, by selecting the board as a port in the top tool bar and clicking the right arrow next to the complining check button. Once the code is uploaded, the arduino and shield is ready to be tested.
+Copy the code into the arduino window. Once this is done, read through the code to better understand what it is doing. This code uses a library called "EnableInterupt" which can be downloaded as a library. To do this, click on "sketch" in the top toolbar, open up the manage library feature, then search for and install the EnalbeInterrupt library.
 
-To establish a connection between the radio adn the transmitter, bring the transmitter (remote) close to the board and press the small button on he back of the board. This can be found in a small indent and can be reached by pressing it with a thing object like a pen. Hold this down untilt he light on the radio stops flashing. now the connection has been established.
+Make sure to complie the code to make sure everything is working (the circle with a tick) then upload it onto the board. To do this, Click on the Tools feature in the top tool bar and select "AruinoUno" as the board. To select the board as a port to be uploaded onto, in the same Tool menu, open the port selection and select the Arduino Uno. To uplaod, click on the right arrow button next to the compiling tick in the main window. Once the code is uploaded, the arduino and shield is ready to be tested.
 
-Open the serial monitor on the arduino app on the computer. This should show 4 different values if the connection has been properly establsihed. As you test the 4 inputs on the transmitter, the value in each respective column should change. the four values are
+To establish a connection between the radio and the transmitter, bring the transmitter (remote) close to the board. Then, press the small button on the back of the board the radio component attached to the board. This can be found in a opening at the back of teh board and can be reached by pressing it with a thin object like a pen. As you hold it down the green light on the radio will begin to falsh rapidly. Hold down the button until the light stops flashing and stays clearly on. Now the connection has been established.
 
-1)
-2)
-3)
-4)
+Show Button on Radio
 
-with each change in input, the output reading on the serial monitor will change. Take note of any input that is not causing a change in output on the serial monitor. This would probably mean that one of the soldered connections is faulty and that a reevaluation of the connection is in order. If none of the readings are changing, then it is either that all the soldered connections were not made or the connection between the radio adn transmitter was not established. redo any of the steps accordinly to make sure a proper reading is given.
+Open the serial monitor on the arduino app on the computer. This should show 4 different values if the connection has been properly establsihed. As you test the 4 inputs on the transmitter, the value in each respective column should change. The four inputs are
+
+1) Ch1 - Wheel (Trim Lever): Controls Direction
+2) Ch2 - Trigger (Throttle): Controls thorttle/ power output
+3) Ch3 - VR Knob           : Custom output
+4) Ch4 - SWA (tact switch) : Custom Output
+
+With each change in input (pressing or turning), the output reading on the serial monitor will change. Take note of any input that is not causing a change in output on the serial monitor. This would probably mean that one of the soldered connections is faulty and that a reevaluation of the connection is in order. If none of the readings are changing, then it is either that all the soldered connections were not made or the connection between the radio adn transmitter was not established. redo any of the steps accordinly to make sure a proper reading is given.
