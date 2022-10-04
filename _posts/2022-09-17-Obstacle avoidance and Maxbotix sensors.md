@@ -99,3 +99,11 @@ Questions to figure out:
 - Is there a way how to trigger sensor again after every measurement?
 
 ![308194339_616174906886704_6373462202449362368_n](https://user-images.githubusercontent.com/94536332/192133802-4f64d121-d64d-4613-8133-e45687d0a26e.jpg)
+
+*4th October 2022*
+## Analog Output Single Sensor
+I used the following scheme to connect sensors to the Arduino. I tested the range of the sensors.
+![arduino-ultrasonic-sensor-single-lv-maxsonar](https://user-images.githubusercontent.com/94536332/193868742-f8917c03-881a-4466-8c56-fa569ea921e2.svg)
+
+Link to the code:
+https://github.com/katynkafialova/Man-or-Machine/blob/1f82bdac29848a3096d5d606d3c35b43a3af2967/Analog%20Output%20Single%20Sensor%20operation
