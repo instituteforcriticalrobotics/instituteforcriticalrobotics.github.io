@@ -54,7 +54,7 @@ Next, we need to prepare the wires prior to the soldering process.
 
 Once the wires have been shaped and fitted to their respective locations, it is important to correctly solder them to the board and establish a connection. Solder the wires to the board using the soldering iron and wound up solder. Bring the Solder close to the wire and let the iron melt the solder onto the board. Solder is a conductive material that melts at around the 300 degree mark on the soldering iron, which should not be turn up any higher than 350 degrees celcius. 
 
-![IMG_6951](https://user-images.githubusercontent.com/54836827/193809109-d3ca73d5-c401-49b1-bef7-e7e3890f8539.jpg)
+<img src="https://user-images.githubusercontent.com/54836827/193809109-d3ca73d5-c401-49b1-bef7-e7e3890f8539.jpg" width=50% height=50%>
 
 A clean soldered connection should have a cone like shape as the wire connects the pin to the board. This cone shape takes up less space and is helpful in make sure there are not shorted connections. Some tips are shared as to how to best clean up any mishapen or extra soldered connection in the final touches section below. Though the board would work with mishapen connections with extra solder that isnt touching any other connection, it is still helpful to make each connection as clean as possible
 
