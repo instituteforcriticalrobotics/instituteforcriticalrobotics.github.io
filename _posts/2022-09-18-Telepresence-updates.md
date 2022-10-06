@@ -1,5 +1,11 @@
 # Amina's updates on the telepresence robot
 
+# Oct 4 Goals Updates:
+- Two-way interaction between server and client:
+  - right now client sees and hears the robot; but robot can't see and hear the client.
+- Raspi connection to server and testing from raspi directly, rather than locally.
+- Raspi receiving arduino commands and responding to them.
+
 # Oct 1 Summary:
 - Browsing information about raspi and sockets; so the goal is to make raspi read from the server or to start a server on its own?
 - if it starts a server, then it needs socket programming; [this video is a good example](https://www.youtube.com/watch?v=QihjI84Z2tQ)
