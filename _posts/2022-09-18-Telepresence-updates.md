@@ -7,6 +7,17 @@
   - Reading from a server on raspi
   - Requesting audio connection from client to output on robot -- how is this feasible with webRTC? Lookup tutorials and test.
 
+Client audio/video setup:
+- testing two-way connection but to no success yet; debugging and researching best connection options.
+- do we want to make that available by default or give the user an option to choose?
+- I am tempted to follow a tutorial for establishing a two-way connection since it seems clearer than the existing setup...
+
+Focus for next time:
+- debugging two-way connection
+- collect camera and microphone for raspi
+- raspi network connection
+     
+
 # Oct 4 Goals Updates:
 - Two-way interaction between server and client:
   - right now client sees and hears the robot; but robot can't see and hear the client.
