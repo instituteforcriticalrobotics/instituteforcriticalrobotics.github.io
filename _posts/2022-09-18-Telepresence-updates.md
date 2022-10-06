@@ -1,5 +1,12 @@
 # Amina's updates on the telepresence robot
 
+# Oct 6:
+- Requested necessary equipment for raspi testing from the IM Lab. Pickup available on Oct 10th (no earlier slots). The return time is on Oct 13th -- is it possible to extend for research purposes? 
+- Still slightly confused about server connection on raspi. So questions for me to research/answer:
+  - Starting a server on raspi from Node
+  - Reading from a server on raspi
+  - Requesting audio connection from client to output on robot -- how is this feasible with webRTC? Lookup tutorials and test.
+
 # Oct 4 Goals Updates:
 - Two-way interaction between server and client:
   - right now client sees and hears the robot; but robot can't see and hear the client.
