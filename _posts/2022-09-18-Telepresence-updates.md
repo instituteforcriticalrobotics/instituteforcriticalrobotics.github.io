@@ -1,5 +1,12 @@
 # Amina's updates on the telepresence robot
 
+# Oct 9 debugging:
+- Stuck, ouch! Cannot find a way to output client video on a robot's side. Watched multiple tutorials, but get lost in actual implementation in the existing codebase. Tutorials seem to use different/potentially updated formatting in webRTC and I don't understand how to map to our state. Perhaps it's time to ask for help from Jack.
+
+# Oct 7 updates:
+- Created separate CSS file for storing the styles and refactoring the code to maintain standard web dev coding practices.
+- Refactoring HTML to show both videos and having options to see the client name and if they wish to mute audio/video.
+
 # Oct 6:
 - Requested necessary equipment for raspi testing from the IM Lab. Pickup available on Oct 10th (no earlier slots). The return time is on Oct 13th -- is it possible to extend for research purposes? 
 - Still slightly confused about server connection on raspi. So questions for me to research/answer:
