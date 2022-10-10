@@ -44,10 +44,26 @@ Eventually, you will reach what is shown above, a stage where the header pins fi
 
 **Preparing the Wires**
 
-Next, we need to prepare the wires prior to the soldering process. 
+Next, we need to prepare the wires prior to the soldering process. The wiring of the board is integral and imperative for it to function properly. This is something that needs to be briefly planned before, that way the wires can go into the board in the most effective way.
 
+1. First, grab some solid wire, and cut a length that you can work with (enough where you can bend it and move it around the board, and not accidentaly come up short). It is better to have more wire than less!
+2. Next, you need to strip the wire on one end. This will allow you to solder it into the board later. The way to do that is by grabbing your wire cutters, and within them, you should be able to strip the wires. 
+
+(insert image here)
+
+3. Next, you need to bend the wire. This is so that it will fit close to the board in a neat way. Think of it as a path from one point of the board to the other, in this case, from the radio pins to the arduino pins. To summarize, the wires should be connected as follows: 
+
+      | RADIO PIN   | ARDUINO PIN |
+      | :---:       |    :----:   |
+      | 0           | 8           |
+      | 1           | 7           |
+      | 2           | 4           |
+      | 3           | 2           |
+      
+  This means that you have to figure out a way to bend the wires to fit into the assigned pins. 
+      
 - Stripping the wires
-- bending them so they fit nicely
+- bending them so they fit nicely (mention what pins they need to go into). 
 - measuring their length
 
 **Soldering to the Shield**
