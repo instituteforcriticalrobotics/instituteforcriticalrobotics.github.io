@@ -1,6 +1,12 @@
 # Amina's updates on the telepresence robot
 
-# Oct 13 debugging:
+# Oct 13 debugging with Jack:
+
+Summary: there are two separate problems
+1) with HTTPS (localhost + non-local connection won't peer connect to each other even if the code is perfect)
+2) because http://10.225.22.40:8080/ doesn't work by itself (outside of localhost), there's definitely sth wrong with the codebase. I am looking into this now
+
+Other discussed points:
 - how do we know it's creating the offer on the server? if the video is shown, then probably the call is going through?
 - https secure connections may impact // look into hosting in https // get a license, can do both locally and raspi
 - install ssl license https://www.thesslstore.com/knowledgebase/ssl-install/whm-ssl-installation/
