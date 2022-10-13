@@ -11,6 +11,9 @@ Other discussed points:
 - https secure connections may impact // look into hosting in https // get a license, can do both locally and raspi
 - install ssl license https://www.thesslstore.com/knowledgebase/ssl-install/whm-ssl-installation/
 
+Investigation notes:
+- As determined from the codebase, robot sends the video data, but client never shares their video/audio data. Hence we're not able to pull up the client video/audio. The next step in solving this would be to get the client share this data, but that would only work in a safe HTTPS connection. See notes from above for details on how to set this up.
+
 # Oct 9 debugging:
 - Stuck, ouch! Cannot find a way to output client video on a robot's side. Watched multiple tutorials, but get lost in actual implementation in the existing codebase. Tutorials seem to use different/potentially updated formatting in webRTC and I don't understand how to map to our state. Perhaps it's time to ask for help from Jack.
 
