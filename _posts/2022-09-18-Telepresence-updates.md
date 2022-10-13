@@ -1,5 +1,10 @@
 # Amina's updates on the telepresence robot
 
+# Oct 13 debugging:
+- how do we know it's creating the offer on the server? if the video is shown, then probably the call is going through?
+- https secure connections may impact // look into hosting in https // get a license, can do both locally and raspi
+- install ssl license https://www.thesslstore.com/knowledgebase/ssl-install/whm-ssl-installation/
+
 # Oct 9 debugging:
 - Stuck, ouch! Cannot find a way to output client video on a robot's side. Watched multiple tutorials, but get lost in actual implementation in the existing codebase. Tutorials seem to use different/potentially updated formatting in webRTC and I don't understand how to map to our state. Perhaps it's time to ask for help from Jack.
 
