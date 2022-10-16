@@ -1,5 +1,12 @@
 # Amina's updates on the telepresence robot
 
+# Weekly Update
+- Debugging in progress:
+  As of now, there are two identified issues:
+  1. An HTTPS connection is required for a two-way interaction when testing
+  2. Client media stream sharing isn't sending data as expected
+  If I get time during Fall break, I will look into #2. Otherwise, I will get back to it after Oct 23rd.
+
 # Oct 13 debugging with Jack:
 
 Summary: there are two separate problems
