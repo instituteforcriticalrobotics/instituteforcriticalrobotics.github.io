@@ -86,8 +86,7 @@ not suitable: The first sensor will range, then trigger the next and the same fo
 First sensor ranges, then triggers the other and so on for all the sensors in the array. Once the last sensor has ranged, it will trigger the first sensor and continue in looping. 
 This loop could be suitable, however, it is not ideal since we need all the sensors to work at the same time. On the other hand, Arduino works quite fast so this approach could work. It needs to be tested. 
 
-![308395700_2255833637902672_2317292943274531609_n](https://user-images.githubusercontent.com/94536332/192133779-c3e1115c-d9f2-4eb4-b1ae-b17834d7c152.jpg)
-
+![2022-10-25 11-26](https://user-images.githubusercontent.com/94536332/197710447-3e1e914a-acab-4f8f-b4c9-528842971f4b.jpeg)
 
 ### AN Output Simultaneous Operation
 This does not work for all applications and it is very sensitive for the positioning of the sensors. Needs to be carefully tested, however, if this one works, it will be the best option. 
