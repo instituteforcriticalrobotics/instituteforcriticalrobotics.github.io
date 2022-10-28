@@ -1,5 +1,12 @@
 # Amina's updates on the telepresence robot
 
+# Oct 28 Summary
+- [x] Watched SSL video explanations https://www.youtube.com/watch?v=SJJmoDZ3il8&ab_channel=dtommy1979 and https://www.youtube.com/watch?v=33VYnE7Bzpk&ab_channel=SunnyClassroom
+- [x] Found this as a proof of Jack's hypothesis from last time: https://stackoverflow.com/questions/41922515/webrtc-video-streaming-doesnt-work-through-http
+- [x] webRTC x HTTPS findings: https://stackoverflow.com/questions/43901648/webrtc-over-https-issue  
+- Ask Michael: is there a particular reason why we don't use Zoom or Google Meets for this project? If third-party video-audio connection is used, can arduino commands live on a separate website? Trying to gauge the optimal way to solve this.
+- Slowly progressing, will work on this a bit more in-depth over the weekend! 
+
 # Weekly Update
 - Debugging in progress:
   As of now, there are two identified issues:
