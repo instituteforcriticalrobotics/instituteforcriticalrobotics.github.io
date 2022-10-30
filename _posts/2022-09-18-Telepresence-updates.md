@@ -2,7 +2,7 @@
 
 # Oct 24th-30th Weekly Update:
 
-I've spent the majority of the time this week working on understanding SSL and networking for webRTC. To install SSL, we need to purchase a certificate to be used on both client and server when transmitting data through getUserMedia() function used in webRTC. Without HTTPS connection and SSL that is required for that connection, the two-way interaction process will not be possible.
+I've spent the majority of the time this week working on understanding SSL and networking for webRTC. To install SSL, we need to purchase a certificate to be used on both client and server when transmitting data through getUserMedia() function used in webRTC. Without HTTPS connection and SSL that is required for that connection, the two-way interaction process will not be possible. The next step would be to purchase an SSL certificate to establish safe connection.
 
 This makes me consider 2 independent things:
 1. Do we want webRTC to be used as a primary way of two-way interaction? I understand this codebase was first created in 2017-18, during the times where digital tools like Zoom and Google Meet were not widely accessible. If we eliminate the problem of two-way connection by using a third-party video conferencing and focus just on transmitting Arduino commands to Raspberry Pi, will this still be helpful in the research? Or does it break the initial intention of using webRTC?
