@@ -114,7 +114,7 @@ connect pin 5 of the last sensor in the sequence to pin 4 of the first sensor in
 1K resistor in sequence between the pin 5 output and pin 4 input
 (4 bands - brown, black, orange, yellow)
 
-# Timing:
+### Timing:
 number of sensors times the single sensor refresh rate
 3 * 100mS = 300mS is the update rate per sensor 
 for our robot it will be at least 5*100ms=500mS=0.5 s
