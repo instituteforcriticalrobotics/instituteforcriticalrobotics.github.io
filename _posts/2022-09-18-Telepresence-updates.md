@@ -1,5 +1,18 @@
 # Amina's updates on the telepresence robot
 
+# Oct 24th-30th Weekly Update:
+
+I've spent the majority of the time this week working on understanding SSL and networking for webRTC. To install SSL, we need to purchase a certificate to be used on both client and server when transmitting data through getUserMedia() function used in webRTC. Without HTTPS connection and SSL that is required for that connection, the two-way interaction process will not be possible.
+
+This makes me consider 2 independent things:
+1. Do we want webRTC to be used as a primary way of two-way interaction? I understand this codebase was first created in 2017-18, during the times where digital tools like Zoom and Google Meet were not widely accessible. If we eliminate the problem of two-way connection by using a third-party video conferencing and focus just on transmitting Arduino commands to Raspberry Pi, will this still be helpful in the research? Or does it break the initial intention of using webRTC?
+2. My progress with figuring out network connections is rather slow due to my understanding of the topic and my own schedule this semester, i.e. I spent the majority of the time I have on understanding the theory instead of problem-solving. I anticipate getting more time this J-term and Spring 2023 semester, with grad school applications and the majority of the Capstone being out of the way. While I am also waiting on external help with networking, is it a possibility for me to temporarily switch to the website-building pending task from the (ICR to-do list)[https://instituteforcriticalrobotics.github.io/2022/09/16/Task-list.html]? I feel confident about finishing a personal website for Michael in the remainder of the semester and do not anticipate any heavy technical blockers with this. Let me know if this is something you/ICR team can consider. Of course, I will still try to figure out networking for webRTC, and hopefully this will be resolved in the next few months.
+
+# Oct 30 Summary
+
+## SSL
+- How to install SSL connection on (Ubuntu)[https://www.filecloud.com/supportdocs/fcdoc/latest/server/filecloud-administrator-guide/installing-filecloud-server/post-installation/ssl-configuration/use-ssl-on-linux/install-an-ssl-certificate-on-ubuntu]
+
 # Oct 28 Summary
 - [x] Watched SSL video explanations https://www.youtube.com/watch?v=SJJmoDZ3il8&ab_channel=dtommy1979 and https://www.youtube.com/watch?v=33VYnE7Bzpk&ab_channel=SunnyClassroom
 - [x] Found this as a proof of Jack's hypothesis from last time: https://stackoverflow.com/questions/41922515/webrtc-video-streaming-doesnt-work-through-http
