@@ -108,12 +108,14 @@ Link to the code:
 https://github.com/katynkafialova/Man-or-Machine/blob/1f82bdac29848a3096d5d606d3c35b43a3af2967/Analog%20Output%20Single%20Sensor%20operation
 
 *30th October 2022*
+
 To have the circuit continuously loop so the chain is always giving an analog voltage output
 connect pin 5 of the last sensor in the sequence to pin 4 of the first sensor in sequence
 1K resistor in sequence between the pin 5 output and pin 4 input
 (4 bands - brown, black, orange, yellow)
 
-Timing: number of sensors times the single sensor refresh rate
+# Timing:
+number of sensors times the single sensor refresh rate
 3 * 100mS = 300mS is the update rate per sensor 
 for our robot it will be at least 5*100ms=500mS=0.5 s
 
@@ -131,6 +133,7 @@ The way how to wire two sensors together:
 Code to run Multiple Sensors in Continously looping circuit 
 two sensors:
 https://github.com/katynkafialova/Man-or-Machine/blob/0de71d7de29b9400baf47c928b856461b8fa4d7c/Multiple%20Sensors%20Analog%20Voltage
+
 three sensors:
 https://github.com/katynkafialova/Man-or-Machine/blob/129adec68176fe22e00db9889c9f4eeb0fcbb0fe/Multiple%20Sensors%20Analog%20Voltage%203
 
