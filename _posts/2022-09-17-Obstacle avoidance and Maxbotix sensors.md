@@ -106,3 +106,32 @@ I used the following scheme to connect sensors to the Arduino. I tested the rang
 
 Link to the code:
 https://github.com/katynkafialova/Man-or-Machine/blob/1f82bdac29848a3096d5d606d3c35b43a3af2967/Analog%20Output%20Single%20Sensor%20operation
+
+*30th October 2022*
+To have the circuit continuously loop so the chain is always giving an analog voltage output
+connect pin 5 of the last sensor in the sequence to pin 4 of the first sensor in sequence
+1K resistor in sequence between the pin 5 output and pin 4 input
+(4 bands - brown, black, orange, yellow)
+
+Timing: number of sensors times the single sensor refresh rate
+3 * 100mS = 300mS is the update rate per sensor 
+for our robot it will be at least 5*100ms=500mS=0.5 s
+
+Useful references:
+https://www.maxbotix.com/Arduino-Ultrasonic-Sensors-085/#wiring
+https://playground.arduino.cc/Main/MaxSonar/
+https://www.maxbotix.com/tutorials1/031-using-multiple-ultrasonic-sensors.htm
+
+![moresensors](https://user-images.githubusercontent.com/94536332/198890758-5394588a-9234-4b2c-a0c2-3977a235414f.png)
+
+The way how to wire two sensors together:
+
+![moresensors](https://user-images.githubusercontent.com/94536332/198890825-769473ab-132e-420d-9f44-1c0355b48749.png)
+
+Code to run Multiple Sensors in Continously looping circuit 
+two sensors:
+https://github.com/katynkafialova/Man-or-Machine/blob/0de71d7de29b9400baf47c928b856461b8fa4d7c/Multiple%20Sensors%20Analog%20Voltage
+three sensors:
+https://github.com/katynkafialova/Man-or-Machine/blob/129adec68176fe22e00db9889c9f4eeb0fcbb0fe/Multiple%20Sensors%20Analog%20Voltage%203
+
+Overall, the sensors are working, however when connecting together as three sensors on one breadboard it gives odd values. I would like to consult this because I might be doing something wrong. Also it might be that I am connecting the last sensor differently than it is supposed to be because it is a different type of sensor. If this issue gets solved, I think we are ready to install the sensors to the robot. We will probably need at least one or two more sensors for the robot to fully work. 
