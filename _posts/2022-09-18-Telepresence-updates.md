@@ -10,8 +10,9 @@ This makes me consider 2 independent things:
 
 # Oct 30 Summary
 
-## SSL
-- How to install SSL connection on (Ubuntu)[https://www.filecloud.com/supportdocs/fcdoc/latest/server/filecloud-administrator-guide/installing-filecloud-server/post-installation/ssl-configuration/use-ssl-on-linux/install-an-ssl-certificate-on-ubuntu]
+## Helpful instruction on installing SSL on Linux
+- How to install SSL connection on [Ubuntu](https://www.filecloud.com/supportdocs/fcdoc/latest/server/filecloud-administrator-guide/installing-filecloud-server/post-installation/ssl-configuration/use-ssl-on-linux/install-an-ssl-certificate-on-ubuntu)
+- How do we purchase an SSL certificate? That would be the next step.
 
 # Oct 28 Summary
 - [x] Watched SSL video explanations https://www.youtube.com/watch?v=SJJmoDZ3il8&ab_channel=dtommy1979 and https://www.youtube.com/watch?v=33VYnE7Bzpk&ab_channel=SunnyClassroom
