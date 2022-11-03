@@ -6,7 +6,12 @@
 1) Start up the node server from RasPi
 2) Read web commands to be fed to Arduino
 3) Transmit web commands from the RasPi server to Arduino
-  - through serial communication
+
+Done:
+- read through serial communication: https://roboticsbackend.com/raspberry-pi-arduino-serial-communication/#:~:text=The%20easiest%20way%20is%20to,Arduino%20IDE)%20to%20your%20board.
+
+To watch:
+- https://www.youtube.com/watch?v=3QSsnnbJYFc&ab_channel=ElitheComputerGuy
 
 
 # Oct 24th-30th Weekly Update:
