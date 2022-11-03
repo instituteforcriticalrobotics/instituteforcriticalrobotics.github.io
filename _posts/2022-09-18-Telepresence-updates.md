@@ -1,5 +1,14 @@
 # Amina's updates on the telepresence robot
 
+# Nov 3
+
+## Priority task:
+1) Start up the node server from RasPi
+2) Read web commands to be fed to Arduino
+3) Transmit web commands from the RasPi server to Arduino
+  - through serial communication
+
+
 # Oct 24th-30th Weekly Update:
 
 I've spent the majority of the time this week working on understanding SSL and networking for webRTC. To install SSL, we need to purchase a certificate to be used on both client and server when transmitting data through getUserMedia() function used in webRTC. Without HTTPS connection and SSL that is required for that connection, the two-way interaction process will not be possible. The next step would be to purchase an SSL certificate to establish safe connection.
