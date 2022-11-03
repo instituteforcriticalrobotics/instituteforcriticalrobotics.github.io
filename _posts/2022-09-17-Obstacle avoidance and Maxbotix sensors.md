@@ -147,3 +147,8 @@ Overall, the sensors are working, however when connecting together as three sens
 After consultation with Michael I corrected the circuit and now all three sensors are working together. Here is the schema of connections of sensors to arduino. The code used is the one above for three sensors. 
 
 ![scketch](https://user-images.githubusercontent.com/94536332/199817412-4124bf0c-07ac-4d28-a6db-9a0325f99e67.jpeg)
+
+Question to think about: Are maxbotix sensors the most suitable for our robot?
+1) The range is not detected below 6 inches but after experimenting with sensors I noticed it is more likely 8 inches
+2) There could be an alternative that can detect very short distance (the closest is 2 cm) - Ultrasonic Module HC-SR04 Distance Sensor For Arduino, cost 15 dirhams
+4) However, our robot is quite large so the precision of 20 cm should be fine?
