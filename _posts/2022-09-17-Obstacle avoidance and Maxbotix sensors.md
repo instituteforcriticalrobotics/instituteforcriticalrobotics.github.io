@@ -140,4 +140,10 @@ https://github.com/katynkafialova/Man-or-Machine/blob/0de71d7de29b9400baf47c928b
 three sensors:
 https://github.com/katynkafialova/Man-or-Machine/blob/129adec68176fe22e00db9889c9f4eeb0fcbb0fe/Multiple%20Sensors%20Analog%20Voltage%203 
 
-Overall, the sensors are working, however when connecting together as three sensors on one breadboard it gives odd values. I would like to consult this because I might be doing something wrong. Also it might be that I am connecting the last sensor differently than it is supposed to be because it is a different type of sensor. If this issue gets solved, I think we are ready to install the sensors to the robot. We will probably need at least one or two more sensors for the robot to fully work. 
+Overall, the sensors are working, however when connecting together as three sensors on one breadboard it gives one odd value. I would like to consult this because I might be doing something wrong. Also it might be that I am connecting the last sensor differently than it is supposed to be because it is a different type of sensor. If this issue gets solved, I think we are ready to install the sensors to the robot. We will probably need at least one or two more sensors for the robot to fully work. 
+
+*3rd November 2022*
+
+After consultation with Michael I corrected the circuit and now all three sensors are working together. Here is the schema of connections of sensors to arduino. The code used is the one above for three sensors. 
+
+![scketch](https://user-images.githubusercontent.com/94536332/199817412-4124bf0c-07ac-4d28-a6db-9a0325f99e67.jpeg)
