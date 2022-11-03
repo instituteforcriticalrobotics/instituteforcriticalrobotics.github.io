@@ -120,9 +120,12 @@ number of sensors times the single sensor refresh rate
 for our robot it will be at least 5*100ms=500mS=0.5 s
 
 Useful references:
-https://www.maxbotix.com/Arduino-Ultrasonic-Sensors-085/#wiring 
-https://playground.arduino.cc/Main/MaxSonar/ 
+https://www.maxbotix.com/Arduino-Ultrasonic-Sensors-085/#wiring  
+
+https://playground.arduino.cc/Main/MaxSonar/  
+
 https://www.maxbotix.com/tutorials1/031-using-multiple-ultrasonic-sensors.htm 
+
 
 ![moresensors](https://user-images.githubusercontent.com/94536332/198890758-5394588a-9234-4b2c-a0c2-3977a235414f.png)
 
