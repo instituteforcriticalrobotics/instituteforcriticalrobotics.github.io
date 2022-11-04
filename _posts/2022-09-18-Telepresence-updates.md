@@ -1,5 +1,12 @@
 # Amina's updates on the telepresence robot
 
+# Nov 4
+
+- Watched a video on raspi and arduino communication. Questions:
+  - Does the communication only work via Python? In the video and other resources, the communication always seemed to use Python.
+- Q: How to wire up raspi and arduino? After that will be a part of starting a server from raspi
+- Downloaded Nodejs npm library for Serial port communication
+
 # Nov 3
 
 ## Priority task:
