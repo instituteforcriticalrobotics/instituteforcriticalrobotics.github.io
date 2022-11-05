@@ -2,6 +2,8 @@
 
 ## Nov 5: SerialPort for Node.JS
 
+Used [this guide](https://serialport.io/docs/guide-usage) to help in installation process.
+
 After installing the SerialPort npm library, modified code to read from the Arduino port and transfer information:
 
 ````
