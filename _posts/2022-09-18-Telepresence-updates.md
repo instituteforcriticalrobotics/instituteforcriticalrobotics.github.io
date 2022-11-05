@@ -26,9 +26,14 @@ port.on('error', function(err) {
 
 [From ITP tutorial](https://itp.nyu.edu/physcomp/labs/labs-serial-communication/lab-serial-communication-with-node-js/): "The serialport library, like most node.js libraries, is event-based. This means that when the program is running, the operating system and the user’s actions will generate events and the program will provide functions to deal with those events called callback functions."
 
-First results: and it looks like the message is going through! Now I only need to find how to receive that from the Arduino's side...
+And it looks like the message is going through:
 
 ![Successful message send from server to serial](https://github.com/instituteforcriticalrobotics/instituteforcriticalrobotics.github.io/blob/main/media/serial.png)
+
+The next step is to make sure that Arduino is receiving this message. This can be tested through LED connection. 
+
+### Question:
+As I am unable to view the Arduino's serial window, how do I check if Arduino received the messages from the server? 
 
 ## Nov 4
 
