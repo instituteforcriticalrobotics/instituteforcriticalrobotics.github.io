@@ -1,11 +1,41 @@
 # Amina's updates on the telepresence robot
 
+# Nov 5
+
+After installing the SerialPort npm library, modified code to read from the Arduino port and transfer information:
+
+````
+// Create an Arduino port
+const port = new SerialPort({
+  path: '/dev/cu.usbmodem14201', // change this depending on Raspberry Pi port: /dev/ttyACM0
+  baudRate: 9600, // change this depending on Raspberry Pi baudRate
+});
+
+port.write('main screen turn on', function(err) {
+  if (err) {
+    return console.log('Error on write: ', err.message);
+  }
+  console.log('message written');
+});
+
+// Open errors will be emitted as an error event
+port.on('error', function(err) {
+  console.log('Error: ', err.message)
+})
+````
+
+[From ITP tutorial](https://itp.nyu.edu/physcomp/labs/labs-serial-communication/lab-serial-communication-with-node-js/): "The serialport library, like most node.js libraries, is event-based. This means that when the program is running, the operating system and the user’s actions will generate events and the program will provide functions to deal with those events called callback functions."
+
+First results: and it looks like the message is going through! Now I only need to find how to receive that from the Arduino's side...
+
+![]()
+
 # Nov 4
 
 - Watched a video on raspi and arduino communication. Questions:
   - Does the communication only work via Python? In the video and other resources, the communication always seemed to use Python.
 - Q: How to wire up raspi and arduino? After that will be a part of starting a server from raspi
-- Downloaded Nodejs npm library for Serial port communication
+- Installed SerialPort Nodejs npm library. More info: https://www.npmjs.com/package/serialport 
 
 # Nov 3
 
