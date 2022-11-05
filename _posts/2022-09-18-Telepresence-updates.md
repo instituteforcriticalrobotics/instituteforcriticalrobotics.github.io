@@ -28,7 +28,7 @@ port.on('error', function(err) {
 
 First results: and it looks like the message is going through! Now I only need to find how to receive that from the Arduino's side...
 
-![Successful message send from server to serial](https://drive.google.com/file/d/1a7QTzT9_jEIgGzqsY-MADKc0O-gNnBQD/view?usp=sharing)
+![Successful message send from server to serial](https://github.com/instituteforcriticalrobotics/instituteforcriticalrobotics.github.io/blob/main/media/serial.png)
 
 # Nov 4
 
