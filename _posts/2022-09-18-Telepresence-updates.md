@@ -1,5 +1,16 @@
 # Amina's updates on the telepresence robot
 
+## Weekly Summary <Oct 30 - Nov 6>
+
+- [x] Installed SerialPort npm library for Node
+- [x] Successfully tested Node - Arduino communication (see documentation below) 
+- [x] Modified codebase and pushed changes to the main!
+
+Focus for next week:
+- Change the microphone cable in the IM lab (previous one didn't work)
+- Test code on Linux (same code should work, according to SerialPort documentation)
+- Test complex Arduino commands if all successful
+
 ## Nov 6: Testing Arduino <-> Node communication
 
 Arduino code and help is taken from [this wonderful ITP tutorial](https://itp.nyu.edu/physcomp/labs/labs-serial-communication/lab-serial-control-of-an-arduino/).
