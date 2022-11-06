@@ -1,5 +1,86 @@
 # Amina's updates on the telepresence robot
 
+## Nov 6: Testing Arduino <-> Node communication
+
+Arduino code and help is taken from [this wonderful ITP tutorial](https://itp.nyu.edu/physcomp/labs/labs-serial-communication/lab-serial-control-of-an-arduino/).
+
+#### Step 0: Preparing Node (this is done from the day before).
+
+````
+const { SerialPort } = require('serialport');
+
+// Create an Arduino port
+const port = new SerialPort({
+  path: '/dev/cu.usbmodem14201', // change this depending on Raspberry Pi port: /dev/ttyACM0
+  baudRate: 9600, // change this depending on Raspberry Pi baudRate
+});
+
+function sendToArduino(message) {
+  port.write(message, function(err) {
+    if (err) {
+      return console.log('Error on write: ', err.message);
+    }
+    console.log('message written: ', message);
+  });
+}
+````
+
+#### Step 1: Preparing the Arduino:
+
+````
+void setup() {
+  // put your setup code here, to run once:
+  Serial.begin(9600);
+  Serial.setTimeout(10);
+  pinMode(LED_BUILTIN, OUTPUT);
+}
+ 
+void loop() {
+  // put your main code here, to run repeatedly:
+  if (Serial.available() > 0) {
+    char input = Serial.parseInt();
+    // use the value of the incoming byte to control the LED's brightness:
+    analogWrite(LED_BUILTIN, input);
+  }
+}
+````
+
+#### Step 2: Send commands when pressing buttons from the website.
+
+````
+switch (path) {
+    case '/1':
+      // goes front etc.
+      console.log("Go left");
+      sendToArduino("1");
+      break;
+    case '/2':
+      // goes front etc.
+      console.log("Go forward");
+      sendToArduino("2");
+      break;
+    case '/3':
+      // goes front etc.
+      console.log("Go right");
+      sendToArduino("3");
+      break;
+    case '/4':
+      // goes front etc.
+      console.log("Go back");
+      sendToArduino("4");
+      break;
+    case '/5':
+      // goes front etc.
+      console.log("Stop");
+      sendToArduino("5");
+      break;
+
+````
+
+#### Step 4: Watch the results!
+
+Successful testing -- the built-in LED blinks when sending communication from Node. 
+
 ## Nov 5: SerialPort for Node.JS
 
 Used [this guide](https://serialport.io/docs/guide-usage) to help in installation process.
