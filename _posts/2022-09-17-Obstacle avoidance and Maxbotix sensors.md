@@ -155,7 +155,7 @@ Question to think about:
 2. There could be an alternative that can detect very short distance (the closest is 2 cm) - Ultrasonic Module HC-SR04 Distance Sensor For Arduino, cost 15 dirhams 
 3. However, our robot is quite large so the precision of 20 cm should be fine? 
 
-* 6th November 2022*
+*6th November 2022*
 
 I successfully connected three sensors on two different breadboards. The system is ready to be installed to the robot. 
 
@@ -164,7 +164,6 @@ For the reference the schema of the circuit:
 ![2022-11-06 15-42](https://user-images.githubusercontent.com/94536332/200168689-f7b39cd7-3e6f-447e-98c3-b7b623fc7e69.jpeg)
 
 And the real image of the sensors connected:
-
 
 ![IMG_5779](https://user-images.githubusercontent.com/94536332/200168846-851ad5dc-2d62-4b3d-8e56-d52c79087924.jpg)
 
