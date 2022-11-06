@@ -81,6 +81,8 @@ switch (path) {
 
 Successful testing -- the built-in LED blinks when sending communication from Node. 
 
+![Successful message send from server to serial](/media/node.png)
+
 ## Nov 5: SerialPort for Node.JS
 
 Used [this guide](https://serialport.io/docs/guide-usage) to help in installation process.
