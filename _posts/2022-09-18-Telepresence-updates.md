@@ -113,7 +113,7 @@ port.on('error', function(err) {
 
 And it looks like the message is going through:
 
-![Successful message send from server to serial](https://github.com/instituteforcriticalrobotics/instituteforcriticalrobotics.github.io/blob/main/media/serial.png)
+![Successful message send from server to serial](/media/serial.png)
 
 The next step is to make sure that Arduino is receiving this message. This can be tested through LED connection. 
 
