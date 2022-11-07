@@ -1,11 +1,28 @@
 #How To Use KiCad
 
 ##[1] Introduction
+- Make a directory or use Github repository
+  2 options come up: Schematic (EESchema) and Layout
 
 ##[2] Schematic Symbol
+- Either access the symbol editor and find the specific component or create a non-existing component
 
 ##[3] Making A Schematic
-
+- (A) Opens up the symbol library to choose, select and place components into the schematic
+ *(C) Duplicates a component
+ *(R) Rotates a component
+- Assign specific values to each component on the schematic by right-clicking the component, opening th properties menu 
+  and selecting the value feature to input value (Or by using V as a shortcut)
+- (W) runs wires/ connectoin between components
+- Use the symbol library to select the power flag and the ground symbols (Down arrow). This is a common feature missed out in most circuits
+  and is picked up as an error. Each component that needs to be grounded should go to a ground (multiple ground symbols still connect
+  to one ground) and all the power sources are specified using a powerflag. Connections that do not go anywhere should have a no connection
+  symbol (an X)
+- Once all the components are placed and connected correctly, use the Electrical Rules Calculator to double-check the connections
+ * The ERC feature is located in the top toolbar on the right
+-Annotate the components in the annotation menu. This is done to differentiate each component in theschematic and to fully define it
+ * The Annotation feature is located directly on the right of the ERC
+ 
 ##[4] Associating Symbols
 
-##[5] Creat a Custom Footprint
+##[5] Create a Custom Footprint
