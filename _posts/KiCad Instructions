@@ -1,8 +1,10 @@
 #How To Use KiCad
 
 ##[1] Introduction
-- Make a directory or use Github repository
+- Make a directory or use Github repository by selecting the notebook icon in the righthand column
   2 options come up: Schematic (EESchema) and Layout
+  <img width="947" alt="Screen Shot 2022-11-07 at 12 03 19 PM" src="https://user-images.githubusercontent.com/54836827/200257314-b6120a37-7c99-4794-8681-0e2ee76f9eb6.png">
+
 
 ##[2] Schematic Symbol
 - Either access the symbol editor and find the specific component or create a non-existing component
@@ -24,5 +26,12 @@
  * The Annotation feature is located directly on the right of the ERC
  
 ##[4] Associating Symbols
+- Once the schematic has been constructed and validated by the ERC, a footprint needs to be designed
+ * A footprint is the real-world size of each component that can be used to model the PCB design more accurately than a schematic
+- Open the CvPCB function (top toolbar) to assign a footprint to each respective component
+- Once CvPCB is selected and run, KiCad will automatically assign the footprint to each component. In the case that is does not or 
+  if a new symbol was created, the footprint will need to manually be assigned. The middle column contains each component within the schematic.
+  Once selected, a component library tha tcan be selected from the left column will need to be selected. From here, the component footprint can 
+  be found and selected, then appearing in the righthand column
 
 ##[5] Create a Custom Footprint
