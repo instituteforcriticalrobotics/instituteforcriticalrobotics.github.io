@@ -6,7 +6,7 @@
 
 The main priority for today was moving wires and the codebase to Raspberry Pi. I was successfully able to wire up the microphone and the Arduino (image below), and will be exchanging the Raspberry Pi camera that I checked out from the IM Lab to a USB camera, so that the audio and video connections work better. 
 
-<img src="[https://github.com/favicon.ico](https://github.com/instituteforcriticalrobotics/instituteforcriticalrobotics.github.io/tree/main/media/wires.JPG)" width="250">
+<img src="https://github.com/instituteforcriticalrobotics/instituteforcriticalrobotics.github.io/tree/main/media/wires.JPG" width="250">
 
 ![Successful wiring](/media/wires.JPG | width=200)
 
