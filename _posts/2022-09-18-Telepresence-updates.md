@@ -2,6 +2,11 @@
 
 ## Nov 11
 
+### Advancing SerialPort Communication
+
+Next steps:
+- Decipher commands from the Arduino's side. I.e. differentiating between "go left" and "go right". That can be as easy as cathing the appropriate Serial Port command. I will have to figure that out. Is 9600 baud optimal for this?
+
 ### Moving to Linux and Raspberry Pi
 
 The main priority for today was moving wires and the codebase to Raspberry Pi. I was successfully able to wire up the microphone and the Arduino (image below), and will be exchanging the Raspberry Pi camera that I checked out from the IM Lab to a USB camera, so that the audio and video connections work better. 
