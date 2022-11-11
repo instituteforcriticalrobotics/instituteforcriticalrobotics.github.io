@@ -6,11 +6,11 @@
 
 The main priority for today was moving wires and the codebase to Raspberry Pi. I was successfully able to wire up the microphone and the Arduino (image below), and will be exchanging the Raspberry Pi camera that I checked out from the IM Lab to a USB camera, so that the audio and video connections work better. 
 
-![Successful wiring](/media/wires.JPG)
+![Successful wiring](/media/wires.JPG | width=200)
 
 Although wiring was done with no problem, I couldn't reach GitHub because of the network issues on Raspberry Pi. Eduroam and NYU wifi's are unavailable for connection, which is why I cannot access certain websites, such as GitHub, to download and test the codebase. Any tips on how to work around this?
 
-![UnSuccessful Network](/media/network-issue.JPG)
+![UnSuccessful Network](/media/network-issue.JPG | width=200)
 
 ## Weekly Summary <Oct 30 - Nov 6>
 
