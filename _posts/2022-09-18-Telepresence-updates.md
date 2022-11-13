@@ -1,6 +1,8 @@
 # Amina's updates on the telepresence robot
 
-## Nov 11
+## Nov 11 + Weekly Update
+
+Side note: I've been away this weekend, so will aim to catch up on work next week.
 
 ### Advancing SerialPort Communication
 
