@@ -1,6 +1,6 @@
 # Amina's updates on the telepresence robot
 
-## Nov 17
+## Nov 18
 
 - [x] Tried to connect Raspberry Pi to the NYU network through the terminal. 
 
@@ -9,6 +9,8 @@ I followed Jack's instructions documented in [his blog](https://jackbdu.wordpres
 <img src="/media/commands.JPG" width="400">
 <img src="/media/vim-text.JPG" width="400">
 <img src="/media/no-wifi.JPG" width="400">
+
+## Nov 17
 
 - [x] Got the network information from Alia.
 
