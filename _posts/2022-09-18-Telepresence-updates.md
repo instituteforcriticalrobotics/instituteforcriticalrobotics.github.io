@@ -2,6 +2,12 @@
 
 ## Nov 17
 
+- [x] Tried to connect Raspberry Pi to the NYU network through the terminal according to Jack's instructions -- didn't work:
+
+<img src="/media/commands.JPG" width="400">
+<img src="/media/vim-text.JPG" width="400">
+<img src="/media/no-wifi.JPG" width="400">
+
 - [x] Got the network information from Alia.
 
 Look into this for connecting to wifi:
