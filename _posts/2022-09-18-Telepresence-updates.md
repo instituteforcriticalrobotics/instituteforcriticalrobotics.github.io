@@ -1,5 +1,14 @@
 # Amina's updates on the telepresence robot
 
+## Nov 17
+
+- [x] Got the network information from Alia.
+
+Look into this for connecting to wifi:
+- https://jackbdu.wordpress.com/2017/04/01/interactive-media-arts-capstone-technical-documentation/
+- https://tolotra.com/2018/07/22/how-to-solve-no-wireless-interface-found-on-a-raspberry-pi-3/
+- https://forums.raspberrypi.com/viewtopic.php?t=211383#p1304765
+
 ## Nov 11 + Weekly Update
 
 Side note: I've been away this weekend, so will aim to catch up on work next week.
