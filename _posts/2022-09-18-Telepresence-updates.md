@@ -2,7 +2,9 @@
 
 ## Nov 17
 
-- [x] Tried to connect Raspberry Pi to the NYU network through the terminal according to Jack's instructions -- didn't work:
+- [x] Tried to connect Raspberry Pi to the NYU network through the terminal. 
+
+I followed Jack's instructions documented in [his blog](https://jackbdu.wordpress.com/2017/04/01/interactive-media-arts-capstone-technical-documentation/). First, I hashed my NYU password and then added a vim command with my network authentication for NYU wifi, however that did not seem to make any difference on the network options on RaspPi.
 
 <img src="/media/commands.JPG" width="400">
 <img src="/media/vim-text.JPG" width="400">
