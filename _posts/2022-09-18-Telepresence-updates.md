@@ -2,11 +2,6 @@
 
 ## Nov 18
 
-Focus for next time:
-- Debug networking (follow up again with Jack)
-- Download codebase to RasPi
-- Run server form RasPi if above two go successfully
-
 - [x] Tried to connect Raspberry Pi to the NYU network through the terminal. 
 
 I followed Jack's instructions documented in [his blog](https://jackbdu.wordpress.com/2017/04/01/interactive-media-arts-capstone-technical-documentation/). First, I hashed my NYU password and then added a vim command with my network authentication for NYU wifi, however that did not seem to make any difference on the network options on RaspPi.
@@ -14,6 +9,11 @@ I followed Jack's instructions documented in [his blog](https://jackbdu.wordpres
 <img src="/media/commands.JPG" width="400">
 <img src="/media/vim-text.JPG" width="400">
 <img src="/media/no-wifi.JPG" width="400">
+
+Focus for next time:
+- Debug networking (follow up again with Jack)
+- Download codebase to RasPi
+- Run server form RasPi if above two go successfully
 
 ## Nov 17
 
