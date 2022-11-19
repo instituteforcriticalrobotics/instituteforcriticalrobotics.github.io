@@ -1,5 +1,12 @@
 # Amina's updates on the telepresence robot
 
+## Nov 19
+
+### Troubleshooting and trials continue...
+- Rebooted RasPi to see if the network has been updated
+- Re-followed the instructions but to no success
+- Scheduled a meeting with Alia for tomorrow (Sunday, Nov 20) to connect to network
+
 ## Nov 18
 
 - [x] Tried to connect Raspberry Pi to the NYU network through the terminal. 
