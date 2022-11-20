@@ -1,5 +1,14 @@
 # Amina's updates on the telepresence robot
 
+## Weekly Update <Nov 13-20>
+- Installing networking to RasPi
+- Testing several connection methods
+- Debugging with Alia and Jack
+
+Planned for next week:
+- Tuesday, one more try with Alia
+- If all fails, ask Michael for help
+
 ## Nov 20
 
 Troubleshooting Day 3...
