@@ -1,5 +1,13 @@
 # Amina's updates on the telepresence robot
 
+## Nov 20
+
+What happens:
+1. I append the NYU network to the `/etc/wpa_supplicant/wpa_supplicant.conf`, which briefly appears on the networks list when opening the same file. However, after a few minutes, the network dissapears from the list, if the changes have not been made/saved!
+2. Tried to add the NYU network with the `add_network` command in `sudo wpa_cli`, but similar happens as in (1): changes are reflected for a moment, and then go back to previous state.
+  - Could this be because of the file writing permissions? Even with sudo, the changes are clearly limited. 
+
+
 ## Nov 19
 
 ### Troubleshooting and trials continue...
