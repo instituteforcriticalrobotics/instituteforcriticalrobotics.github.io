@@ -20,3 +20,10 @@ Another thing is the silkscreen overlap, which from my understanding is the draw
 Breakthrough! It was actually really simple. All I had to do was press (F) to flip the component. I originally thought that it just flipped the orientation but it actually flips the entire component to the other side of the board. This can be seen by the border switching to blue outside and red inside instead of the orinigal red outside and blue inside. This meant that I had to rewire everything and start from the beginning, but that solved the courtyard issues. The problem now is that the "slikscreen is clipped by the solder mask" is still an issue
 
 After some time of looking through, I've decided to continue with this design as this is only a warning and not an error. With that in mind, I think it will be possible to mill the PCB effectively without issue. All that is left is to run the dimensions by Michael and remove the front layer routes. I also need to confirm whether I should be using via holes or through holes in order to overlap routes using something like a jumper wire
+
+###20/11/2022
+![69047807513--C5C3F0E6-FDAB-4F5C-9408-B1CDD86BA4DD](https://user-images.githubusercontent.com/54836827/202911189-b0e65270-b13c-40a8-ab3f-27bac6073df9.jpg)
+
+![Kicad](https://user-images.githubusercontent.com/54836827/202911049-17128c7d-a4b1-4903-abe2-7729e4ccc978.png)
+
+This is the new and updated PCB (second image). I designed a PCB yesterday that was similar (top image) however, I realized that one of the wirings int eh schematic was wrong, and that 6 and 7 on the nRF24L01 were inverted, so I had to go back and change it. This meant that I would now have two sets of via holes instead of just one. The main update in these PCBs compared to the previous date iteration is that the routes are much smaller and were set in accordance with what I found online for the othermill pro. Furthermore, I addedd a capacitor for the voltage and ground input.
