@@ -1,5 +1,17 @@
 # Amina's updates on the telepresence robot
 
+## Nov 24
+
+### Happy Thanksgiving! 🍁
+
+Still a problem: wpa_supplicant.conf Changes Disappear
+
+Steps taken:
+- Upon testing a few commands and rebooting Raspberry Pi, it seems that SDCard removal is not necessary, because it is **not** read-only. I can indeed write, store, and update files on it. Just not the WiFi config for some strage reason. I am still investigating that.
+- Emailed NYU IT to get additional help. 
+- Tried also changing `update_config=0` from `update_config=1` (command that is presumably responsible for updates and overrides) but that change also got wiped out after a few seconds. Source: [this thread](https://raspberrypi.stackexchange.com/questions/105537/wpa-supplicant-conf-changes-disappear).
+- Turned WiFi off completely and re-did the commands. Seems like it is not wiping out while the WiFi is off. Whenever I turn WiFi back on, the changes are wiped out...
+
 ## Weekly Update <Nov 13-20>
 - Installing networking to RasPi
 - Testing several connection methods
