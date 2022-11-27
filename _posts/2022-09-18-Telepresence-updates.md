@@ -1,5 +1,10 @@
 # Amina's updates on the telepresence robot
 
+## Weekly Update <Nov 20 - 27>
+- Got a temporary workaround for networks (WiFi works)
+- Downloaded the Repo and testing the code files
+- For more details and next steps, please refer to the documentation below:
+
 ## Nov 27
 - Cloned webRTC repo into the Pi computer
 - Updated OS by running `sudo apt update` and `sudo apt upgrade` (took some time!)
