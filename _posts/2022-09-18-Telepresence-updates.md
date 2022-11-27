@@ -13,7 +13,10 @@ Known problems:
 - Serial connection not working.
   - Solution: See above. As soon as the port name is known, the connection will be working.
 - No media stream is set.
-  - Solution: Connect a USB camera and a microphone.   
+  - Solution: Connect a USB camera and a microphone.
+
+<img src="/media/no-media.JPG" width="400">
+<img src="/media/which-usb.JPG" width="400">
 
 ## Nov 24
 
