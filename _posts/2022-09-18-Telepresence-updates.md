@@ -1,5 +1,20 @@
 # Amina's updates on the telepresence robot
 
+## Nov 27
+- Cloned webRTC repo into the Pi computer
+- Updated OS by running `sudo apt update` and `sudo apt upgrade` (took some time!)
+- Installed node and npm
+- Downloaded the codebase (finally!)
+- Tested the server
+
+Known problems:
+- USB connection upon starting the server isn't detected.
+  - Solution: Determine the value for `/dev/ttyACM0` (except that it's not ACM0 in this case -- find why)
+- Serial connection not working.
+  - Solution: See above. As soon as the port name is known, the connection will be working.
+- No media stream is set.
+  - Solution: Connect a USB camera and a microphone.   
+
 ## Nov 24
 
 ### Happy Thanksgiving! 🍁
