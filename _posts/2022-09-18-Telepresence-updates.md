@@ -16,7 +16,7 @@ Known problems:
   - Solution: Connect a USB camera and a microphone.
 
 <img src="/media/no-media.JPG" width="400">
-<img src="/media/which-usb.JPG" width="400">
+<img src="/media/which-usb.jpg" width="400">
 
 ## Nov 24
 
