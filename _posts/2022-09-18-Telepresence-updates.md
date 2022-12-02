@@ -10,6 +10,8 @@ Pending tasks:
 - Get a USB camera to test the media stream
 - Work with Alia for a permanent network solution
 
+<img src="/media/arduino.gif" width="400">
+
 ## Weekly Update <Nov 20 - 27>
 - Got a temporary workaround for networks (WiFi works)
 - Downloaded the Repo and testing the code files
