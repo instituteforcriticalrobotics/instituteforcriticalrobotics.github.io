@@ -2,6 +2,7 @@
 
 ## Dec 2
 - Re-registered for the guest wifi (use registration code: 28112)
+- Found that the USB path to arduino is `/dev/ttyACM0`
 
 To-DO:
 - Get a USB camera to test the media stream
