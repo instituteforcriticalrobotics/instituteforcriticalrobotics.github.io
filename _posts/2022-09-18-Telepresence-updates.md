@@ -1,11 +1,14 @@
 # Amina's updates on the telepresence robot
 
 ## Dec 2
-- Re-registered for the guest wifi (use registration code: 28112)
-- Found that the USB path to arduino is `/dev/ttyACM0`
+- Re-registered for the guest wifi (use registration code: 28112). This is only valid for 7 days and needs to be renewed unless a permanent solution is found.
+- Found that the USB path to arduino indeed is `/dev/ttyACM0`.
+- Fixed serial communication! Tested that communication between RasPi - Arduino works and is ready to be programmed further ✅
+- Node server is up and running from RasPi
 
-To-DO:
+Pending tasks:
 - Get a USB camera to test the media stream
+- Work with Alia for a permanent network solution
 
 ## Weekly Update <Nov 20 - 27>
 - Got a temporary workaround for networks (WiFi works)
