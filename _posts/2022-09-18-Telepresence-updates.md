@@ -1,5 +1,11 @@
 # Amina's updates on the telepresence robot
 
+## Dec 2
+- Re-registered for the guest wifi (use registration code: 28112)
+
+To-DO:
+- Get a USB camera to test the media stream
+
 ## Weekly Update <Nov 20 - 27>
 - Got a temporary workaround for networks (WiFi works)
 - Downloaded the Repo and testing the code files
