@@ -1,0 +1,837 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="297mm"
+   height="210mm"
+   viewBox="0 0 297 210"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.1 (9c6d41e, 2022-07-14)"
+   sodipodi:docname="robotWiring.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="true"
+     inkscape:zoom="1.2221979"
+     inkscape:cx="562.92029"
+     inkscape:cy="409.50815"
+     inkscape:window-width="2240"
+     inkscape:window-height="1207"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1"
+     showguides="false" />
+  <defs
+     id="defs2">
+    <rect
+       x="210.26687"
+       y="99.256413"
+       width="26.773111"
+       height="149.53762"
+       id="rect17970" />
+    <rect
+       x="212.22588"
+       y="151.49663"
+       width="23.508098"
+       height="95.991399"
+       id="rect17964" />
+    <rect
+       x="181.53475"
+       y="103.17443"
+       width="94.032391"
+       height="102.52143"
+       id="rect17465" />
+    <rect
+       x="227.24494"
+       y="346.09144"
+       width="2.6120109"
+       height="65.953274"
+       id="rect17459" />
+    <rect
+       x="214.83789"
+       y="151.49663"
+       width="22.855095"
+       height="84.23735"
+       id="rect17399" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect13358"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <linearGradient
+       id="linearGradient1648"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#d1d1d1;stop-opacity:1;"
+         offset="0"
+         id="stop1646" />
+    </linearGradient>
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect13358-0"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <rect
+       x="210.26688"
+       y="99.256416"
+       width="27.426114"
+       height="169.78069"
+       id="rect17970-1" />
+    <rect
+       x="210.26688"
+       y="99.256416"
+       width="27.426113"
+       height="169.78069"
+       id="rect17970-1-0" />
+    <rect
+       x="210.26688"
+       y="99.256416"
+       width="27.426113"
+       height="169.78069"
+       id="rect17970-1-0-1" />
+    <rect
+       x="210.26688"
+       y="99.256416"
+       width="65.953274"
+       height="116.88746"
+       id="rect17970-1-0-1-5" />
+    <rect
+       x="210.26688"
+       y="99.256416"
+       width="26.120108"
+       height="244.22301"
+       id="rect17970-1-0-3" />
+    <rect
+       x="210.26688"
+       y="99.256416"
+       width="27.426113"
+       height="169.78069"
+       id="rect17970-1-1" />
+    <rect
+       x="210.26688"
+       y="99.256416"
+       width="27.426113"
+       height="169.78069"
+       id="rect17970-1-1-9" />
+    <rect
+       x="210.26688"
+       y="99.256416"
+       width="27.426113"
+       height="169.78069"
+       id="rect17970-1-1-92" />
+    <rect
+       x="210.26688"
+       y="99.256416"
+       width="27.426113"
+       height="169.78069"
+       id="rect17970-1-1-1" />
+    <rect
+       x="210.26688"
+       y="99.256416"
+       width="27.426113"
+       height="169.78069"
+       id="rect17970-1-1-9-1" />
+    <rect
+       x="210.26688"
+       y="99.256416"
+       width="27.426113"
+       height="169.78069"
+       id="rect17970-1-1-9-8" />
+    <rect
+       x="210.26688"
+       y="99.256416"
+       width="27.426113"
+       height="169.78069"
+       id="rect17970-1-0-4" />
+    <rect
+       x="210.26688"
+       y="99.256416"
+       width="27.426113"
+       height="169.78069"
+       id="rect17970-1-0-48" />
+    <rect
+       x="210.26688"
+       y="99.256416"
+       width="27.426113"
+       height="169.78069"
+       id="rect17970-1-0-48-9" />
+    <rect
+       x="210.26688"
+       y="99.256416"
+       width="27.426113"
+       height="169.78069"
+       id="rect17970-1-0-48-0" />
+    <rect
+       x="210.26688"
+       y="99.256416"
+       width="27.426113"
+       height="169.78069"
+       id="rect17970-1-0-48-9-3" />
+    <rect
+       x="210.26688"
+       y="99.256416"
+       width="27.426113"
+       height="169.78069"
+       id="rect17970-1-1-9-8-4" />
+    <rect
+       x="210.26688"
+       y="99.256416"
+       width="32.650136"
+       height="96.644387"
+       id="rect17970-1-1-9-8-4-4" />
+    <rect
+       x="210.26688"
+       y="99.256416"
+       width="40.486168"
+       height="121.45849"
+       id="rect17970-1-1-9-8-4-4-9" />
+    <rect
+       x="210.26688"
+       y="99.256416"
+       width="40.486168"
+       height="121.45849"
+       id="rect17970-1-1-9-8-4-4-4" />
+    <rect
+       x="210.26688"
+       y="99.256416"
+       width="32.650135"
+       height="96.644386"
+       id="rect17970-1-1-9-8-4-4-8" />
+    <rect
+       x="210.26688"
+       y="99.256416"
+       width="32.650135"
+       height="96.644386"
+       id="rect17970-1-1-9-8-4-4-7" />
+    <rect
+       x="210.26688"
+       y="99.256416"
+       width="27.426113"
+       height="169.78069"
+       id="rect17970-1-0-48-7" />
+    <rect
+       x="210.26688"
+       y="99.256416"
+       width="27.426113"
+       height="169.78069"
+       id="rect17970-1-0-48-9-6" />
+    <rect
+       x="210.26688"
+       y="99.256416"
+       width="27.426113"
+       height="169.78069"
+       id="rect17970-1-0-48-0-8" />
+    <rect
+       x="210.26688"
+       y="99.256416"
+       width="33.95614"
+       height="117.54047"
+       id="rect17970-1-1-9-8-4-4-43" />
+    <rect
+       x="210.26688"
+       y="99.256416"
+       width="33.956139"
+       height="117.54047"
+       id="rect17970-1-1-9-8-4-4-43-3" />
+    <rect
+       x="210.26688"
+       y="99.256416"
+       width="33.956139"
+       height="117.54047"
+       id="rect17970-1-1-9-8-4-4-43-6" />
+    <rect
+       x="210.26688"
+       y="99.256416"
+       width="33.956139"
+       height="117.54047"
+       id="rect17970-1-1-9-8-4-4-43-6-1" />
+    <rect
+       x="210.26688"
+       y="99.256416"
+       width="27.426113"
+       height="169.78069"
+       id="rect17970-1-1-9-8-4-47" />
+    <rect
+       x="210.26688"
+       y="99.256416"
+       width="27.426113"
+       height="169.78069"
+       id="rect17970-1-1-9-8-4-8" />
+    <rect
+       x="210.26688"
+       y="99.256416"
+       width="26.77311"
+       height="140.39557"
+       id="rect17970-1-1-9-8-4-8-8" />
+    <rect
+       x="210.26688"
+       y="99.256416"
+       width="26.773109"
+       height="140.39557"
+       id="rect17970-1-1-9-8-4-8-8-8" />
+    <rect
+       x="210.26688"
+       y="99.256416"
+       width="35.262145"
+       height="146.27259"
+       id="rect17970-1-1-9-8-4-4-7-4" />
+    <rect
+       x="210.26688"
+       y="99.256416"
+       width="18.284075"
+       height="129.94752"
+       id="rect17970-1-1-9-8-4-4-7-1" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#999999;fill-opacity:1;stroke:#000000;stroke-width:0.661148;stroke-dasharray:none"
+       id="rect13073"
+       width="251.06448"
+       height="52.782444"
+       x="24.954432"
+       y="66.694351" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.546;stroke-dasharray:none"
+       d="m 84.847855,119.55962 v 13.05142"
+       id="path13077-90-9-5-8" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.546;stroke-dasharray:none"
+       d="m 71.371512,119.55961 v 13.05142"
+       id="path13077-90-9-5" />
+    <path
+       style="fill:#aa0000;fill-opacity:1;stroke:#aa0000;stroke-width:0.546;stroke-dasharray:none"
+       d="M 57.895168,53.300916 V 66.352344"
+       id="path13077-90" />
+    <path
+       style="fill:#999999;fill-opacity:1;stroke:#000000;stroke-width:0.7;stroke-dasharray:none"
+       d="M 37.948216,66.431728 V 119.73942"
+       id="path13077" />
+    <path
+       style="fill:#999999;fill-opacity:1;stroke:#000000;stroke-width:0.696286;stroke-dasharray:none"
+       d="M 51.76873,66.854808 V 119.5984"
+       id="path13077-3" />
+    <path
+       style="fill:#999999;fill-opacity:1;stroke:#000000;stroke-width:0.7;stroke-dasharray:none"
+       d="M 64.461038,66.572756 V 119.88045"
+       id="path13077-1" />
+    <path
+       style="fill:#999999;fill-opacity:1;stroke:#000000;stroke-width:0.7;stroke-dasharray:none"
+       d="M 77.435397,66.290705 V 119.5984"
+       id="path13077-15" />
+    <path
+       style="fill:#999999;fill-opacity:1;stroke:#000000;stroke-width:0.7;stroke-dasharray:none"
+       d="M 90.973858,66.290705 V 119.5984"
+       id="path13077-0" />
+    <path
+       style="fill:#999999;fill-opacity:1;stroke:#000000;stroke-width:0.7;stroke-dasharray:none"
+       d="M 104.23027,66.290706 V 119.59839"
+       id="path13077-8" />
+    <path
+       style="fill:#999999;fill-opacity:1;stroke:#000000;stroke-width:0.7;stroke-dasharray:none"
+       d="M 117.48668,66.572756 V 119.88045"
+       id="path13077-4" />
+    <path
+       style="fill:#999999;fill-opacity:1;stroke:#000000;stroke-width:0.7;stroke-dasharray:none"
+       d="M 130.74309,66.572756 V 119.88044"
+       id="path13077-9" />
+    <path
+       style="fill:#999999;fill-opacity:1;stroke:#000000;stroke-width:0.7;stroke-dasharray:none"
+       d="M 143.99951,66.572756 V 119.88045"
+       id="path13077-30" />
+    <path
+       style="fill:#999999;fill-opacity:1;stroke:#000000;stroke-width:0.7;stroke-dasharray:none"
+       d="M 156.97386,66.572756 V 119.88045"
+       id="path13077-5" />
+    <path
+       style="fill:#999999;fill-opacity:1;stroke:#000000;stroke-width:0.7;stroke-dasharray:none"
+       d="M 170.23027,66.290705 V 119.5984"
+       id="path13077-2" />
+    <path
+       style="fill:#999999;fill-opacity:1;stroke:#000000;stroke-width:0.7;stroke-dasharray:none"
+       d="M 183.76874,66.572758 V 119.88045"
+       id="path13077-38" />
+    <path
+       style="fill:#999999;fill-opacity:1;stroke:#000000;stroke-width:0.7;stroke-dasharray:none"
+       d="M 197.02514,66.290705 V 119.5984"
+       id="path13077-7" />
+    <path
+       style="fill:#999999;fill-opacity:1;stroke:#000000;stroke-width:0.7;stroke-dasharray:none"
+       d="M 210.5636,66.290703 V 119.5984"
+       id="path13077-80" />
+    <path
+       style="fill:#999999;fill-opacity:1;stroke:#000000;stroke-width:0.7;stroke-dasharray:none"
+       d="M 223.82002,66.572757 V 119.88044"
+       id="path13077-45" />
+    <path
+       style="fill:#999999;fill-opacity:1;stroke:#000000;stroke-width:0.7;stroke-dasharray:none"
+       d="M 236.79438,66.572756 V 119.88045"
+       id="path13077-71" />
+    <path
+       style="fill:#999999;fill-opacity:1;stroke:#000000;stroke-width:0.7;stroke-dasharray:none"
+       d="M 250.05078,66.290701 V 119.59839"
+       id="path13077-06" />
+    <path
+       style="fill:#999999;fill-opacity:1;stroke:#000000;stroke-width:0.7;stroke-dasharray:none"
+       d="M 263.02515,66.854808 V 120.1625"
+       id="path13077-03" />
+    <rect
+       style="fill:#aa0000;fill-opacity:1;stroke:#000000;stroke-width:0.868663;stroke-dasharray:none"
+       id="rect13494"
+       width="28.42576"
+       height="9.42066"
+       x="30.897039"
+       y="88.202446" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.851402;stroke-dasharray:none"
+       id="rect13518"
+       width="67.835419"
+       height="9.0923748"
+       x="70.2808"
+       y="88.366592" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.44506px;line-height:0;font-family:monospace;-inkscape-font-specification:monospace;letter-spacing:0.703755px;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-dasharray:none"
+       x="85.84729"
+       y="96.860374"
+       id="text13576-0-3"
+       transform="scale(1.013092,0.98707717)"><tspan
+         id="tspan13574-7-0"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.44506px;font-family:monospace;-inkscape-font-specification:'monospace Bold';fill:#ffffff;stroke:#ffffff;stroke-width:0;stroke-dasharray:none"
+         x="85.84729"
+         y="96.860374"
+         rotate="0 0 0 0 0 0 0"
+         dy="0"
+         sodipodi:role="line">GROUND</tspan></text>
+    <rect
+       style="fill:#aa0000;fill-opacity:1;stroke:#000000;stroke-width:0.854579;stroke-dasharray:none"
+       id="rect13520"
+       width="41.397869"
+       height="9.0891972"
+       x="149.75826"
+       y="88.195404" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:0;font-family:monospace;-inkscape-font-specification:monospace;letter-spacing:0.529167px;fill:#aa0000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-dasharray:none"
+       x="43.027306"
+       y="71.375732"
+       id="text13576"
+       transform="scale(0.74517281,1.3419706)"><tspan
+         sodipodi:role="line"
+         id="tspan13574"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.35px;font-family:monospace;-inkscape-font-specification:'monospace Bold';fill:#000000;stroke-width:0;stroke-dasharray:none"
+         x="43.027306"
+         y="71.375732">NOISY 5V</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:0;font-family:monospace;-inkscape-font-specification:monospace;letter-spacing:0.529167px;fill:#aa0000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-dasharray:none"
+       x="211.80721"
+       y="71.151604"
+       id="text13576-0"
+       transform="scale(0.74517281,1.3419706)"><tspan
+         sodipodi:role="line"
+         id="tspan13574-7"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.35px;font-family:monospace;-inkscape-font-specification:'monospace Bold';fill:#000000;stroke-width:0;stroke-dasharray:none"
+         x="211.80721"
+         y="71.151604">QUIET 5V</tspan></text>
+    <circle
+       id="path16452"
+       style="fill:#aa0000;stroke:#aa0000;stroke-width:0.264583"
+       cx="32.30867"
+       cy="66.34507"
+       r="0" />
+    <path
+       style="fill:#aa0000;fill-opacity:1;stroke:#aa0000;stroke-width:0;stroke-dasharray:none"
+       d="m 39.40839,57.666961 -9.157005,3.282698"
+       id="path17309" />
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text17397"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;font-family:monospace;-inkscape-font-specification:'monospace Bold';white-space:pre;shape-inside:url(#rect17399);display:inline;fill:#aa0000;fill-opacity:1;stroke:#aa0000;stroke-width:0;stroke-dasharray:none" />
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text17457"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;font-family:monospace;-inkscape-font-specification:'monospace Bold';writing-mode:vertical-lr;white-space:pre;shape-inside:url(#rect17459);display:inline;fill:#aa0000;fill-opacity:1;stroke:#aa0000;stroke-width:0;stroke-dasharray:none" />
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text17463"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:monospace;-inkscape-font-specification:'monospace Bold';writing-mode:tb-rl;direction:ltr;white-space:pre;shape-inside:url(#rect17465);display:inline;fill:#aa0000;fill-opacity:1;stroke:#aa0000;stroke-width:0;stroke-dasharray:none" />
+    <path
+       style="fill:#aa0000;fill-opacity:1;stroke:#aa0000;stroke-width:0.546;stroke-dasharray:none"
+       d="m 58.240716,119.73239 v 13.05142"
+       id="path13077-90-9" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-2.2300562,-2.458263)"
+       id="text17968"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:monospace;-inkscape-font-specification:'monospace Bold';writing-mode:tb-rl;direction:ltr;white-space:pre;shape-inside:url(#rect17970);display:inline;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.929764;stroke-dasharray:none"><tspan
+         x="227.03906"
+         y="99.255859"
+         id="tspan651"><tspan
+           style="fill:#aa0000;stroke:#aa0000"
+           id="tspan649">To Neopixel</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-2.0610442,107.98919)"
+       id="text17968-4"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:monospace;-inkscape-font-specification:'monospace Bold';writing-mode:tb-rl;direction:ltr;white-space:pre;shape-inside:url(#rect17970-1);display:inline;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.929764;stroke-dasharray:none"><tspan
+         x="227.69336"
+         y="99.255859"
+         id="tspan655"><tspan
+           style="fill:#aa0000;stroke:#aa0000"
+           id="tspan653">To Noisy Battery</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,11.069409,107.90365)"
+       id="text17968-4-0"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:monospace;-inkscape-font-specification:'monospace Bold';writing-mode:tb-rl;direction:ltr;white-space:pre;shape-inside:url(#rect17970-1-0);display:inline;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.929764;stroke-dasharray:none"><tspan
+         x="227.69336"
+         y="99.255859"
+         id="tspan659"><tspan
+           style="fill:#000000"
+           id="tspan657">To Noisy Battery</tspan></tspan></text>
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.546;stroke-dasharray:none"
+       d="M 71.371512,53.38731 V 66.43873"
+       id="path13077-90-9-5-2" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,11.069409,-2.498694)"
+       id="text17968-4-0-4"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:monospace;-inkscape-font-specification:'monospace Bold';writing-mode:tb-rl;direction:ltr;white-space:pre;shape-inside:url(#rect17970-1-0-1);display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.929764;stroke-dasharray:none"><tspan
+         x="227.69336"
+         y="99.255859"
+         id="tspan661">To Neopixel</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,207.15148,12.139255)"
+       id="text17968-4-0-4-5"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:monospace;-inkscape-font-specification:'monospace Bold';writing-mode:tb-rl;direction:ltr;white-space:pre;shape-inside:url(#rect17970-1-0-1-5);shape-padding:3.26501;display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.929764;stroke-dasharray:none" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;font-family:monospace;-inkscape-font-specification:'monospace Bold';writing-mode:tb-rl;direction:ltr;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.246;stroke-dasharray:none"
+       x="284.55817"
+       y="74.810982"
+       id="text18193"><tspan
+         sodipodi:role="line"
+         id="tspan18191"
+         style="stroke-width:0.246"
+         x="284.55817"
+         y="74.810982" /></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,25.019313,107.50439)"
+       id="text17968-4-0-9"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:monospace;-inkscape-font-specification:'monospace Bold';writing-mode:tb-rl;direction:ltr;white-space:pre;shape-inside:url(#rect17970-1-0-3);display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.929764;stroke-dasharray:none"><tspan
+         x="226.38672"
+         y="99.255859"
+         id="tspan663">To Motor Controller (M.C)</tspan></text>
+    <path
+       style="fill:#aa0000;fill-opacity:1;stroke:#aa0000;stroke-width:0.546;stroke-dasharray:none"
+       d="m 151.02016,119.55961 v 13.05142"
+       id="path13077-90-9-3" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,90.372507,108.07643)"
+       id="text17968-4-5"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:monospace;-inkscape-font-specification:'monospace Bold';writing-mode:tb-rl;direction:ltr;white-space:pre;shape-inside:url(#rect17970-1-1);display:inline;fill:#aa0000;fill-opacity:1;stroke:#aa0000;stroke-width:0.929764;stroke-dasharray:none"><tspan
+         x="227.69336"
+         y="99.255859"
+         id="tspan665">To Quiet Battery</tspan></text>
+    <path
+       style="fill:#aa0000;fill-opacity:1;stroke:#aa0000;stroke-width:0.546;stroke-dasharray:none"
+       d="m 164.15096,119.73239 v 13.05142"
+       id="path13077-90-9-3-8" />
+    <path
+       style="fill:#aa0000;fill-opacity:1;stroke:#aa0000;stroke-width:0.546;stroke-dasharray:none"
+       d="m 177.10898,119.73239 v 13.05142"
+       id="path13077-90-9-3-0" />
+    <path
+       style="fill:#aa0000;fill-opacity:1;stroke:#aa0000;stroke-width:0.546;stroke-dasharray:none"
+       d="m 190.41254,119.73239 v 13.05142"
+       id="path13077-90-9-3-09" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,103.84679,108.07645)"
+       id="text17968-4-5-7"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:monospace;-inkscape-font-specification:'monospace Bold';writing-mode:tb-rl;direction:ltr;white-space:pre;shape-inside:url(#rect17970-1-1-9);display:inline;fill:#aa0000;fill-opacity:1;stroke:#aa0000;stroke-width:0.929764;stroke-dasharray:none"><tspan
+         x="227.69336"
+         y="99.255859"
+         id="tspan667">To 3rd Maxsonar</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,116.92522,108.07448)"
+       id="text17968-4-5-7-2"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:monospace;-inkscape-font-specification:'monospace Bold';writing-mode:tb-rl;direction:ltr;white-space:pre;shape-inside:url(#rect17970-1-1-9-1);display:inline;fill:#aa0000;fill-opacity:1;stroke:#aa0000;stroke-width:0.929764;stroke-dasharray:none"><tspan
+         x="227.69336"
+         y="99.255859"
+         id="tspan669">To 2nd Maxsonar</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,129.88324,107.9017)"
+       id="text17968-4-5-7-4"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:monospace;-inkscape-font-specification:'monospace Bold';writing-mode:tb-rl;direction:ltr;white-space:pre;shape-inside:url(#rect17970-1-1-9-8);display:inline;fill:#aa0000;fill-opacity:1;stroke:#aa0000;stroke-width:0.929764;stroke-dasharray:none"><tspan
+         x="227.69336"
+         y="99.255859"
+         id="tspan671">To 1st Maxsonar</tspan></text>
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.546;stroke-dasharray:none"
+       d="m 97.460331,119.55961 v 13.05142"
+       id="path13077-90-9-5-8-1" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.546;stroke-dasharray:none"
+       d="m 111.10945,119.73239 v 13.05142"
+       id="path13077-90-9-5-8-9" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.546;stroke-dasharray:none"
+       d="m 124.24025,119.73239 v 13.05142"
+       id="path13077-90-9-5-8-0" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.546;stroke-dasharray:none"
+       d="m 137.88936,119.73239 v 13.05142"
+       id="path13077-90-9-5-8-2" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,39.042738,121.07388)"
+       id="text17968-4-0-90"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:monospace;-inkscape-font-specification:'monospace Bold';writing-mode:tb-rl;direction:ltr;white-space:pre;shape-inside:url(#rect17970-1-0-4);display:inline;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.929764;stroke-dasharray:none" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,37.331002,108.07644)"
+       id="text17968-4-0-6"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:monospace;-inkscape-font-specification:'monospace Bold';writing-mode:tb-rl;direction:ltr;white-space:pre;shape-inside:url(#rect17970-1-0-48);display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.929764;stroke-dasharray:none"><tspan
+         x="227.69336"
+         y="99.255859"
+         id="tspan673">To 3rd Maxsonar</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,50.925691,108.07447)"
+       id="text17968-4-0-6-8"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:monospace;-inkscape-font-specification:'monospace Bold';writing-mode:tb-rl;direction:ltr;white-space:pre;shape-inside:url(#rect17970-1-0-48-9);display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.929764;stroke-dasharray:none"><tspan
+         x="227.69336"
+         y="99.255859"
+         id="tspan675">To 2nd Maxsonar</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,63.883713,108.07448)"
+       id="text17968-4-0-6-2"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:monospace;-inkscape-font-specification:'monospace Bold';writing-mode:tb-rl;direction:ltr;white-space:pre;shape-inside:url(#rect17970-1-0-48-0);display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.929764;stroke-dasharray:none"><tspan
+         x="227.69336"
+         y="99.255859"
+         id="tspan677">To 1st Maxsonar</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,77.532831,107.89551)"
+       id="text17968-4-0-6-8-2"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:monospace;-inkscape-font-specification:'monospace Bold';writing-mode:tb-rl;direction:ltr;white-space:pre;shape-inside:url(#rect17970-1-0-48-9-3);display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.929764;stroke-dasharray:none"><tspan
+         x="227.69336"
+         y="99.255859"
+         id="tspan679">To Quiet Battery
+</tspan></text>
+    <path
+       style="fill:#0000ff;fill-opacity:1;stroke:#0000ff;stroke-width:0.546;stroke-dasharray:none"
+       d="m 216.67415,53.387309 v 13.05142"
+       id="path13077-90-9-3-09-4-6" />
+    <path
+       style="fill:#0000ff;fill-opacity:1;stroke:#0000ff;stroke-width:0.546;stroke-dasharray:none"
+       d="M 229.97771,53.38731 V 66.43873"
+       id="path13077-90-9-3-09-4-3" />
+    <path
+       style="fill:#0000ff;fill-opacity:1;stroke:#0000ff;stroke-width:0.546;stroke-dasharray:none"
+       d="M 243.62683,53.38731 V 66.43873"
+       id="path13077-90-9-3-09-4-9" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,156.54274,0.54988701)"
+       id="text17968-4-5-7-4-2-3"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.3333px;font-family:monospace;-inkscape-font-specification:'monospace Bold';writing-mode:tb-rl;direction:ltr;white-space:pre;shape-inside:url(#rect17970-1-1-9-8-4-4);display:inline;fill:#aa0000;fill-opacity:1;stroke:#aa0000;stroke-width:0.929764;stroke-dasharray:none"><tspan
+         x="234.58466"
+         y="99.255859"
+         id="tspan683"><tspan
+           style="fill:#0000ff;stroke:#0000ff"
+           id="tspan681">Analog Input </tspan></tspan><tspan
+         x="217.91803"
+         y="99.255859"
+         id="tspan687"><tspan
+           style="fill:#0000ff;stroke:#0000ff"
+           id="tspan685">to Arduino</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,169.55522,0.16761101)"
+       id="text17968-4-5-7-4-2-3-8"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.3333px;font-family:monospace;-inkscape-font-specification:'monospace Bold';writing-mode:tb-rl;direction:ltr;white-space:pre;shape-inside:url(#rect17970-1-1-9-8-4-4-8);display:inline;fill:#aa0000;fill-opacity:1;stroke:#aa0000;stroke-width:0.929764;stroke-dasharray:none"><tspan
+         x="234.58466"
+         y="99.255859"
+         id="tspan691"><tspan
+           style="fill:#0000ff;stroke:#0000ff"
+           id="tspan689">Analog Input </tspan></tspan><tspan
+         x="217.91803"
+         y="99.255859"
+         id="tspan695"><tspan
+           style="fill:#0000ff;stroke:#0000ff"
+           id="tspan693">to Arduino</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,183.37711,0.34038401)"
+       id="text17968-4-5-7-4-2-3-3"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.3333px;font-family:monospace;-inkscape-font-specification:'monospace Bold';writing-mode:tb-rl;direction:ltr;white-space:pre;shape-inside:url(#rect17970-1-1-9-8-4-4-7);display:inline;fill:#aa0000;fill-opacity:1;stroke:#aa0000;stroke-width:0.929764;stroke-dasharray:none"><tspan
+         x="234.58466"
+         y="99.255859"
+         id="tspan699"><tspan
+           style="fill:#0000ff;stroke:#0000ff"
+           id="tspan697">Analog Input </tspan></tspan><tspan
+         x="217.91803"
+         y="99.255859"
+         id="tspan703"><tspan
+           style="fill:#0000ff;stroke:#0000ff"
+           id="tspan701">to Arduino</tspan></tspan></text>
+    <path
+       style="fill:#0000ff;fill-opacity:1;stroke:#0000ff;stroke-width:0.546;stroke-dasharray:none"
+       d="m 217.18488,119.57629 v 13.05142"
+       id="path13077-90-9-5-8-1-1" />
+    <path
+       style="fill:#0000ff;fill-opacity:1;stroke:#0000ff;stroke-width:0.546;stroke-dasharray:none"
+       d="m 230.834,119.74907 v 13.05142"
+       id="path13077-90-9-5-8-9-3" />
+    <path
+       style="fill:#0000ff;fill-opacity:1;stroke:#0000ff;stroke-width:0.546;stroke-dasharray:none"
+       d="m 243.9648,119.74907 v 13.05142"
+       id="path13077-90-9-5-8-0-8" />
+    <path
+       style="fill:#0000ff;fill-opacity:1;stroke:#0000ff;stroke-width:0.546;stroke-dasharray:none"
+       d="m 256.75763,119.38683 v 13.05142"
+       id="path13077-90-9-5-8-9-3-5" />
+    <path
+       style="fill:#0000ff;fill-opacity:1;stroke:#0000ff;stroke-width:0.546;stroke-dasharray:none"
+       d="m 269.88843,119.55961 v 13.05142"
+       id="path13077-90-9-5-8-0-8-6" />
+    <path
+       style="fill:#0000ff;fill-opacity:1;stroke:#0000ff;stroke-width:0.546;stroke-dasharray:none"
+       d="m 256.58485,53.214535 v 13.05142"
+       id="path13077-90-9-3-09-4-9-3" />
+    <path
+       style="fill:#0000ff;fill-opacity:1;stroke:#0000ff;stroke-width:0.546;stroke-dasharray:none"
+       d="m 269.54287,53.387309 v 13.05142"
+       id="path13077-90-9-3-09-4-9-7" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,157.28829,109.18777)"
+       id="text17968-4-5-7-4-2-3-6"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.3333px;font-family:monospace;-inkscape-font-specification:'monospace Bold';writing-mode:tb-rl;direction:ltr;white-space:pre;shape-inside:url(#rect17970-1-1-9-8-4-4-43);display:inline;fill:#aa0000;fill-opacity:1;stroke:#aa0000;stroke-width:0.929764;stroke-dasharray:none"><tspan
+         x="235.88934"
+         y="99.255859"
+         id="tspan707"><tspan
+           style="fill:#0000ff;stroke:#0000ff"
+           id="tspan705">3rd Maxsonar </tspan></tspan><tspan
+         x="219.22272"
+         y="99.255859"
+         id="tspan711"><tspan
+           style="fill:#0000ff;stroke:#0000ff"
+           id="tspan709">Analog Output</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,170.72778,109.33903)"
+       id="text17968-4-5-7-4-2-3-6-7"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.3333px;font-family:monospace;-inkscape-font-specification:'monospace Bold';writing-mode:tb-rl;direction:ltr;white-space:pre;shape-inside:url(#rect17970-1-1-9-8-4-4-43-3);display:inline;fill:#aa0000;fill-opacity:1;stroke:#aa0000;stroke-width:0.929764;stroke-dasharray:none"><tspan
+         x="235.88934"
+         y="99.255859"
+         id="tspan715"><tspan
+           style="fill:#0000ff;stroke:#0000ff"
+           id="tspan713">2nd Maxsonar </tspan></tspan><tspan
+         x="219.22272"
+         y="99.255859"
+         id="tspan719"><tspan
+           style="fill:#0000ff;stroke:#0000ff"
+           id="tspan717">Analog Output</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,183.85857,109.16626)"
+       id="text17968-4-5-7-4-2-3-6-2"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.3333px;font-family:monospace;-inkscape-font-specification:'monospace Bold';writing-mode:tb-rl;direction:ltr;white-space:pre;shape-inside:url(#rect17970-1-1-9-8-4-4-43-6);display:inline;fill:#aa0000;fill-opacity:1;stroke:#aa0000;stroke-width:0.929764;stroke-dasharray:none"><tspan
+         x="235.88934"
+         y="99.255859"
+         id="tspan723"><tspan
+           style="fill:#0000ff;stroke:#0000ff"
+           id="tspan721">1st Maxsonar </tspan></tspan><tspan
+         x="219.22272"
+         y="99.255859"
+         id="tspan727"><tspan
+           style="fill:#0000ff;stroke:#0000ff"
+           id="tspan725">Analog Output</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,196.62623,108.70618)"
+       id="text17968-4-5-7-4-2-8"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:monospace;-inkscape-font-specification:'monospace Bold';writing-mode:tb-rl;direction:ltr;white-space:pre;shape-inside:url(#rect17970-1-1-9-8-4-47);display:inline;fill:#aa0000;fill-opacity:1;stroke:#aa0000;stroke-width:0.929764;stroke-dasharray:none"><tspan
+         x="227.69336"
+         y="99.255859"
+         id="tspan731"><tspan
+           style="fill:#0000ff;stroke:#0000ff"
+           id="tspan729">Neopixel Signal</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,209.9298,108.70618)"
+       id="text17968-4-5-7-4-2-1"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:monospace;-inkscape-font-specification:'monospace Bold';writing-mode:tb-rl;direction:ltr;white-space:pre;shape-inside:url(#rect17970-1-1-9-8-4-8);display:inline;fill:#aa0000;fill-opacity:1;stroke:#aa0000;stroke-width:0.929764;stroke-dasharray:none"><tspan
+         x="227.69336"
+         y="99.255859"
+         id="tspan735"><tspan
+           style="fill:#0000ff;stroke:#0000ff"
+           id="tspan733">M.C Signal</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,196.85346,4.314178)"
+       id="text17968-4-5-7-4-2-3-3-7"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.3333px;font-family:monospace;-inkscape-font-specification:'monospace Bold';writing-mode:tb-rl;direction:ltr;white-space:pre;shape-inside:url(#rect17970-1-1-9-8-4-4-7-4);display:inline;fill:#aa0000;fill-opacity:1;stroke:#aa0000;stroke-width:0.929764;stroke-dasharray:none"><tspan
+         x="237.19598"
+         y="99.255859"
+         id="tspan739"><tspan
+           style="fill:#0000ff;stroke:#0000ff"
+           id="tspan737">Arduino to </tspan></tspan><tspan
+         x="220.52936"
+         y="99.255859"
+         id="tspan743"><tspan
+           style="fill:#0000ff;stroke:#0000ff"
+           id="tspan741">Neopixel</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,210.84812,-5.5339199)"
+       id="text17968-4-5-7-4-2-3-3-1"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.3333px;font-family:monospace;-inkscape-font-specification:'monospace Bold';writing-mode:tb-rl;direction:ltr;white-space:pre;shape-inside:url(#rect17970-1-1-9-8-4-4-7-1);display:inline;fill:#aa0000;fill-opacity:1;stroke:#aa0000;stroke-width:0.929764;stroke-dasharray:none"><tspan
+         x="220.21747"
+         y="99.255859"
+         id="tspan747"><tspan
+           style="fill:#0000ff;stroke:#0000ff"
+           id="tspan745">Arduino to M.C</tspan></tspan></text>
+  </g>
+</svg>
