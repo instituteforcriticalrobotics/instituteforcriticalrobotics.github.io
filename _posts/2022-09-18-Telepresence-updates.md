@@ -1,5 +1,11 @@
 # Amina's updates on the telepresence robot
 
+## Dec 3
+- Connected the web-camera -- thanks Michael for kindly providing the camera!
+- Downloaded the `fswebcam` module to Pi, took a picture, and the computer froze right after that...Had to reboot. Here's the camera output:
+
+<img src="/media/image.jpg">
+
 ## Dec 2
 - Re-registered for the guest wifi (use registration code: 28112). This is only valid for 7 days and needs to be renewed unless a permanent solution is found.
 - Found that the USB path to arduino indeed is `/dev/ttyACM0`.
