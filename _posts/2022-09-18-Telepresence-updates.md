@@ -6,6 +6,14 @@
 
 <img src="/media/image.jpg">
 
+Additional steps taken to test the camera according to the [instructions](https://www.highvoltagecode.com/post/webrtc-on-raspberry-pi-live-hd-video-and-audio-streaming):
+- Enabling camera in config on Pi
+
+Currently debugging:
+- getmediastream does not recognize camera on raspi
+- for a solution, check: https://stackoverflow.com/questions/28556402/webrtc-on-raspberry-pi
+- follow these instructions to install UV4L, which is required to run webRTC from RasPii: https://www.linux-projects.org/uv4l/installation/
+
 ## Dec 2
 - Re-registered for the guest wifi (use registration code: 28112). This is only valid for 7 days and needs to be renewed unless a permanent solution is found.
 - Found that the USB path to arduino indeed is `/dev/ttyACM0`.
