@@ -1,7 +1,7 @@
 # Amina's updates on the telepresence robot
 
 ## Dec 4
-Help! After attempting to run `rpi-update`, the Pi is unable to connect to any network (shows `No wireless interfaces found`). So I googled the issue and attempted to run a few other commands, including downgrading to previous firmware and messing with the network settings. However, nothing worked and now I get errors when trying to perform any command on Pi. Any solutions?
+Help! After attempting to run `rpi-update` to install some of the libraries for webRTC, the Pi is unable to connect to any network (shows `No wireless interfaces found`). So I googled the issue and attempted to run a few other commands, including downgrading to previous firmware and messing with the network settings. However, nothing worked and now I get errors when trying to perform any command on Pi. Any solutions?
 
 ## Dec 3
 - Connected the web-camera -- thanks Michael for kindly providing the camera!
