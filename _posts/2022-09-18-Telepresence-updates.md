@@ -3,6 +3,12 @@
 ## Dec 4
 Help! After attempting to run `rpi-update` to install some of the libraries for webRTC, the Pi is unable to connect to any network (shows `No wireless interfaces found`). So I googled the issue and attempted to run a few other commands, including downgrading to previous firmware and messing with the network settings. However, nothing worked and now I get errors when trying to perform any command on Pi. Any solutions?
 
+Learning: DO NOT use `rpi-update` as it has unstable software and messes with your Pi...
+
+````
+WARNING: Pre-release versions of software are not guaranteed to work. You should not use rpi-update on any system unless recommended to do so by a Raspberry Pi engineer. It may leave your system unreliable or even completely broken. It should not be used as part of any regular update process.
+````
+
 ## Dec 3
 - Connected the web-camera -- thanks Michael for kindly providing the camera!
 - Downloaded the `fswebcam` module to Pi, took a picture, and the computer froze right after that...Had to reboot. Here's the camera output:
