@@ -178,3 +178,5 @@ The wires were connected based on the Aalya's sketch from the sensors to the boa
 
 Next step is to connect to arduino. I first need to consult with Michael about position of the wire for trigger pin.
 
+![image0 (1)](https://user-images.githubusercontent.com/94536332/205714845-bb90651f-7ef8-43d0-9c72-7f56c1e7d444.jpeg)
+
