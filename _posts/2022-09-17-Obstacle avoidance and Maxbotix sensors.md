@@ -174,4 +174,5 @@ Three sensors were attached on the robot on a rotatable mounts in the front part
 ![image0](https://user-images.githubusercontent.com/94536332/205699790-fe6464f3-5345-417f-ba39-1aa4c8c46da0.jpeg)
 
 The wires were connected to the 
+![image](https://user-images.githubusercontent.com/94536332/205700320-81ae74a6-a105-4ebe-af7a-d3a03fca18ca.png)
 
