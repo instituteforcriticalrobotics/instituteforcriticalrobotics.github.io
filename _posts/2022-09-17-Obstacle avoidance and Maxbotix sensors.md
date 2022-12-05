@@ -168,6 +168,10 @@ And the real image of the sensors connected:
 ![IMG_5779](https://user-images.githubusercontent.com/94536332/200168846-851ad5dc-2d62-4b3d-8e56-d52c79087924.jpg)
 
 
+*5th December 2022*
+Three sensors were attached on the robot on a rotatable mounts in the front part of the construction. 
 
+![image0](https://user-images.githubusercontent.com/94536332/205699790-fe6464f3-5345-417f-ba39-1aa4c8c46da0.jpeg)
 
+The wires were connected to the 
 
