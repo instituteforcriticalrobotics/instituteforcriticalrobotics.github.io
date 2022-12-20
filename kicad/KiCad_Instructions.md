@@ -52,12 +52,29 @@
 
 - Once the components are imported the screen should look something like this. The screenshot above highlights some of the fundamental features of designing the PCB layout
 - The first thing that needs to be done is the PCB shape that will contain all the components should be established. This can be done by using the draw line (or any other form of shape) feature on the righthand side of the the workspace.
-- The route tracks features (X) allows the user to connect the necessary pins by dragging a route and clicking at turning/ bending points to establish the desired route. The yellow line coming out of the trace towards a specific pin shows where that specific route needs to go, as per the specification of the schematic created earlier.
+- The route tracks features (X) allows the user to connect the necessary pins by dragging a route and clicking at turning/ bending points to establish the desired route. The yellow line coming out of the trace towards a specific pin shows where that specific route needs to go, as per the specification of the schematic created earlier. The minimum trace size for the Othermill Pro is 10 mils or 0.254mm, however, this thin trace size makes it hard to solder. It is more advisable to allow the trace sizes to be the same as the with of the PCB pads (usually 1.6mm), while also increasing either the length or the width of the soldering pad of each pad/pin in order to better facilitate soldering
 - If the traces overlap, the front of the board can be used as well. At the moment, NYUAD does not have double sided PCB material, so instead, via holes can be selected (V) and be used to connect two seperate traces. Instead of having a route on the front side, a wire can be soldered on after milling is completed.
 - If the PCB has components on either side of it and is used as a shield of some sort, the components can be flipped to either side of the PCB by pressing (F). This can then be rotated (R) or moved (M)
 
 <img width="589" alt="Screen Shot 2022-11-17 at 6 34 06 PM" src="https://user-images.githubusercontent.com/54836827/202474837-bd9940e3-fd72-4ce8-8de7-e2a5a8243044.png">
 
-- Once all the components are placed and routed appropriately, it is then important to fill the board. This can be done by using the fill feature listed in hte image above. The board should be filled with a ground on the bottom layer, where the main traces are.
+- Once all the components are placed and routed appropriately, it is then important to fill the board with a ground plate. This can be done by using the fill feature listed in hte image above, and selecting a GND layer on the back copper. This allows for the board to have a common GND and would therefore not need any traces between the grounds on the board.
 - The components are labeled and these labels appear on the silklayer of the board, which may cause issues. These labels should either be moved to an apporpriate area of the board where the is space, or hidden. To hide these labels, double click on the label and deselect the "visible" option
-- After that, the board is ready to be checked using the ECR like in the schematic. The procedure for this is the same as in EESchema
+- After that, the board is ready to be checked using the ECR like in the schematic. The procedure for this is the same as in EESchema.
+  - Any Couryard or silk layer overlaps can be ignored as the Othermill is only able to mill out the back cooper and edge cut layers. As long as there are no significant errors, the warnings are okay to ignore.
+
+## [6] Generate Gerber File 
+
+- After finilizing the PCB design using the ECR, the PCB must be converted into a gerber (.gbr) file to be read by the Othermill Pro. To do this, open the file menu inthe top right menu and select the plot funciton.
+- Fill in the window with the settings shown in the image above. Make sure to only select Edge Cut layer and the Back Cu. Layer as these are the only two layers that the Othermill Pro are able to manufacture. Before generating the Gerber files, select the Generate Drill Files option
+- Fill in the Generate Drill File window with the appropriate settings shown in the image above. Ensure the combining the PTH and NTP files in selected, otherwise the Othermill will not be able to read the files and drill the appropriate holes and vias.
+- Once done, select the plot option and go back tot he gerber file generation window and plot the files in the apporpriate folder. Once done, there should be three .gbr files generated: Drill, Back Cu. and Edge Cuts. This is now ready to be uploaded to the Othermill Pro for manufacturing
+
+## [7] Othermill Pro
+- Open the Bantam Tools software in order to operate the Othermill Pro. Ensure to use the legacy software rather than the most up-to-date software as the Othermill Pro is an outdated machine and does not funciton well with the new software.
+- Home the machine by selecting the homing option. Ensure the graphic on the screen takes into account the L-Bracket if the machine has one. If it doesn not, set the L-Bracket in the homing menu and follow the instruction on the machine.
+- Set the size of the copper sheet by assigning the dimension in the top right menu.
+- Once the machine is homed, select the Back Cu. layer. This should then prompt you to a new menu wherein 4 layers are to be selected. Back Copper, Edge Cuts and the Drill files should be selected respectively. The top layer option can be left unselected.
+- Once selected, unsure everything is being milled properly according to your PCB design by looking at the projected graphic. Each layer can be viewed individually by deselecting the other two. The project can be shifted across the copper plate accroding to your specification by manipulating the x and y coordinates.
+  - Any red traces means that the Othermill Pro cannot mill this trace with the current size bit that is attached. This bit can either be replaced by a smaller width, or used accordingly. If it is used with the red traces still existent, the trace will have to be cut by hand using a box cutter after milling.
+- Place the Copper plate in the bottom left corner of the Othermill Platform with double sided tape attached to the back end (The non-copper side). Once this is done, you can then begin to mill out the project
