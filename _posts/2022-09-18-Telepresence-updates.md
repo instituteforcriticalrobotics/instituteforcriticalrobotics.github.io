@@ -3,6 +3,7 @@
 ## Jan 25
 
 - backing up Raspi to a new 16 gb microSD card
+- encountering issue when connecting to wifi "radius connection not found. please contact help desk for assistance"
 
 goals:
 - connect to wifi
