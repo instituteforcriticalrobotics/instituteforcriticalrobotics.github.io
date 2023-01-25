@@ -1,5 +1,20 @@
 # Amina's updates on the telepresence robot
 
+## Jan 25
+
+- backing up Raspi to a new 16 gb microSD card
+
+goals:
+- connect to wifi
+- download the codebase
+
+## Jan 23
+
+Happy 2023!
+
+- met with Michael and Katarina today
+- outlined goals for the semester
+
 ## Dec 8
 - Trying to solve the issue caused by interrupted running of `rpi-update` from last week
 - No progress
