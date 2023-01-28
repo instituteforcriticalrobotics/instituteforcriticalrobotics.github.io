@@ -1,5 +1,11 @@
 # Amina's updates on the telepresence robot
 
+## Jan 28
+
+To log into the wifi, go to: ````1.1.1.1````
+
+
+
 ## Jan 25
 
 - backing up Raspi to a new 16 gb microSD card
