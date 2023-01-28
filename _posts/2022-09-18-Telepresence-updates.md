@@ -4,7 +4,10 @@
 
 To log into the wifi, go to: ````1.1.1.1````
 
-
+- [x] ran `sudo apt update` and `sudo apt upgrade`
+- [x] downloaded `npm` and `nodejs` to current raspi
+- [x] got raspi and codebase state to the point before the crash!!! woohoo 🥳
+- [ ] now figuring out the webcam + mic connection to get the media streams   
 
 ## Jan 25
 
