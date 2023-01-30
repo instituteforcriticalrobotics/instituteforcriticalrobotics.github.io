@@ -8,6 +8,8 @@ The issue was: audio has to be (temporarily) disabled due to lack of microphone 
 
 To resolve: access to `localhost:8080/` from different device. Cannot reach it from other devices, as of now. Might be due to the SSH certificate thing. Will look into this now.
 
+Issue: I can run `:8080/robot` from my mac and connect to `:8080/` from my devices, but not from Pi. Similarly, I can run `:8080/robot` on Pi, but cannot connect using `IP:8080/` from my devices. Will need to try running `:8080/robot` from Chromium on Pi and connecting to `:8080/` from another browser.
+
 ## Jan 28
 
 To log into the wifi, go to: ````1.1.1.1````
