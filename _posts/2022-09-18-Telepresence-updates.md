@@ -1,5 +1,13 @@
 # Amina's updates on the telepresence robot
 
+## Jan 30
+
+Camera works! I am able to now connect to `localhost:8080/robot` page on raspberry pi.
+
+The issue was: audio has to be (temporarily) disabled due to lack of microphone on raspi. I anticipate that with microphone connection both will work.
+
+To resolve: access to `localhost:8080/` from different device. Cannot reach it from other devices, as of now. Might be due to the SSH certificate thing. Will look into this now.
+
 ## Jan 28
 
 To log into the wifi, go to: ````1.1.1.1````
@@ -7,7 +15,17 @@ To log into the wifi, go to: ````1.1.1.1````
 - [x] ran `sudo apt update` and `sudo apt upgrade`
 - [x] downloaded `npm` and `nodejs` to current raspi
 - [x] got raspi and codebase state to the point before the last crash!!! woohoo 🥳
-- [ ] now figuring out the webcam + mic connection to get the media streams   
+
+Now figuring out the webcam + mic connection to get the media streams:
+- installing kernel camera drivers (reason why camera isn't working)
+
+````
+If you have verified that the physical connection is correct, it is possible that the camera module is not compatible with the version of the Raspberry Pi you are using or the operating system.
+
+It is also possible that the camera is not supported by the version of the Linux kernel you are using, or the driver is not properly installed.
+
+You can try updating the OS or the kernel version, and see if that resolves the issue. But make sure that your camera is compatible with the new version before updating.
+````
 
 ## Jan 25
 
