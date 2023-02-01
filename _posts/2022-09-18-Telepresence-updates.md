@@ -1,5 +1,28 @@
 # Amina's updates on the telepresence robot
 
+## Feb 1
+
+Working around SSL certificate to access the website using IP address on Pi. A temporary worka around this is using a self-trusted SSL certificate, which is what I will do now to see if that solves the issue.
+
+OK, tried the self-signed certificate, but the server proceeded to give the following error: `"ERR_SSL_PROTOCOL_ERROR"`. The best solution in this case seems to purchase the certificate, as we cannot advance without it. Hence have to stash self-signed certificate changes and ask Jack/Micahel for SSL certificate purchase.
+
+````
+const https = require('https');
+const fs = require('fs');
+
+const options = {
+  key: fs.readFileSync('path/to/private.key'),
+  cert: fs.readFileSync('path/to/certificate.crt')
+};
+
+const server = https.createServer(options, (req, res) => {
+  // Your server code here
+});
+
+server.listen(443);
+
+````
+
 ## Jan 30
 
 Camera works! I am able to now connect to `localhost:8080/robot` page on raspberry pi.
