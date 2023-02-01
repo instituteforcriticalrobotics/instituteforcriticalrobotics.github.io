@@ -6,6 +6,8 @@ Working around SSL certificate to access the website using IP address on Pi. A t
 
 OK, tried the self-signed certificate, but the server proceeded to give the following error: `"ERR_SSL_PROTOCOL_ERROR"`. The best solution in this case seems to purchase the certificate, as we cannot advance without it. Hence have to stash self-signed certificate changes and ask Jack/Micahel for SSL certificate purchase.
 
+Price: $5.99 per year for a total of 5 years bundle (https://comodosslstore.com/promoads/cheap-comodo-ssl-certificates.aspx?gclid=CjwKCAiAuOieBhAIEiwAgjCvcnxuD2VlyTwAL_dCjapV6NNKWZf5jnDLMZtU5MO54vxbrLZgMXh5HBoCN5YQAvD_BwE)
+
 ````
 const https = require('https');
 const fs = require('fs');
