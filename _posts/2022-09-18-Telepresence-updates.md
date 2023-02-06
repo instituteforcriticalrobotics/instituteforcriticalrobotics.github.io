@@ -1,5 +1,15 @@
 # Amina's updates on the telepresence robot
 
+## Feb 6
+
+- [x] Cloned forked branch of the webRTC repo with serial communication
+- [x] both `8080/robot` and `8080/` pages work from Pi
+- [x] ensured that SSL/safe connection is what I need to proceed to next stage
+
+Here is another suggestion on a potential workaround:
+
+`Alternatively, you can set up a reverse proxy, such as NGINX, to act as a secure endpoint for your Raspberry Pi server, which would allow you to access the server using a URL that starts with "https."`
+
 ## Feb 1
 
 Working around SSL certificate to access the website using IP address on Pi. A temporary worka around this is using a self-trusted SSL certificate, which is what I will do now to see if that solves the issue.
