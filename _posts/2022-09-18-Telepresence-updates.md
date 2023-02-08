@@ -1,5 +1,11 @@
 # Amina's updates on the telepresence robot
 
+## Feb 8
+
+- [x] Installed an apache package `sudo apt-get install apache2-utils`
+- [x] Generated CSR doc to generate the SSL certificate that Michael purchased
+- [ ] Ooop..a hiccup from the server? 
+
 ## Feb 6
 
 - [x] Cloned forked branch of the webRTC repo with serial communication
