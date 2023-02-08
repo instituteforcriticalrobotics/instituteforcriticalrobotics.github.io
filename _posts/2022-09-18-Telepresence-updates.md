@@ -6,6 +6,8 @@
 - [x] Generated CSR doc to generate the SSL certificate that Michael purchased
 - [ ] Ooop..a hiccup from the server? 
 
+![](https://github.com/instituteforcriticalrobotics/instituteforcriticalrobotics.github.io/blob/main/media/hiccup.png)
+
 ## Feb 6
 
 - [x] Cloned forked branch of the webRTC repo with serial communication
