@@ -4,7 +4,7 @@
 
 - [x] Installed an apache package `sudo apt-get install apache2-utils`
 - [x] Generated CSR doc to generate the SSL certificate that Michael purchased
-- [ ] Ooop..a hiccup from the server? 
+- [ ] Ooop..a hiccup from the server? It seems like SSL generator could not go through, so I am investigating why.
 
 ![](https://github.com/instituteforcriticalrobotics/instituteforcriticalrobotics.github.io/blob/main/media/hiccup.png)
 
