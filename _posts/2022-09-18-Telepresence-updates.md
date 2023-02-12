@@ -1,5 +1,25 @@
 # Amina's updates on the telepresence robot
 
+## Feb 12
+
+I just keep running into hurdles! I got one step closer to enrolling the SSL certificate, but another hurdle is "invalid domain name in your CSR". And this is because the domain at the moment is the IP address of the Raspberry Pi.
+
+I am trying to zoom out a bit to remind again why all of these steps are needed:
+1. A person opens up a website online to get access to the robot
+2. Robot initializes video and audio signals through webRTC
+3. A person can move the robot and also be shown on the robot's page
+
+What is missing right now:
+`A person opens up a website online to get access to the robot`
+- [ ] Remote streaming on webRTC
+  - [ ] For remote streaming to work, we need HTTPS. For HTTPS, we need SSL. For SSL, we need domain name.
+`Robot initializes video and audio signals through webRTC`
+- [ ] Audio works on non-Raspberry Pi devices. Find a way to connect to Audio on Pi 
+`A person can move the robot and also be shown on the robot's page`
+- [x] Is able to receive Serial signals from the web page. This is the least of our concerns as of now.
+
+It seems like the progress is slow and we're taking 1 step forward and 3 back. But it's a complex task, so the solutions also take more than expected.
+
 ## Feb 8
 
 - [x] Installed an apache packages `sudo apt-get install apache2` and `sudo apt-get install apache2-utils`
