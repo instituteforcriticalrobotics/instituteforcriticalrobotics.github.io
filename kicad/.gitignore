@@ -18,3 +18,5 @@ fp-info-cache
 *.ses
 # backups
 *.zip
+# preferences
+*.kicad_prl
