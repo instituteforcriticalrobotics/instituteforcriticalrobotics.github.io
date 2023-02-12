@@ -12,6 +12,7 @@ I am trying to zoom out a bit to remind again why all of these steps are needed:
 3. A person can move the robot and also be shown on the robot's page
 
 What is missing right now:
+
 `A person opens up a website online to get access to the robot`
 - [ ] Remote streaming on webRTC
   - [ ] For remote streaming to work, we need HTTPS. For HTTPS, we need SSL. For SSL, we need domain name.
