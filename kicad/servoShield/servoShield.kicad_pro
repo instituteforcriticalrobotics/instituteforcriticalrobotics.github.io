@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.4,
-          "height": 5.6,
-          "width": 2.8
+          "drill": 1.02,
+          "height": 2.04,
+          "width": 5.0
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -379,7 +379,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "MachineLab.net",
+      "netlist": "servoShield.net",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
