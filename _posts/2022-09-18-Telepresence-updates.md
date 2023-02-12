@@ -2,6 +2,9 @@
 
 ## Feb 12
 
+- [x] Updated and re-generated CSR certificate
+- [x] Tried to enroll in the certificate activation, and... 
+
 I just keep running into hurdles! I got one step closer to enrolling the SSL certificate, but another hurdle is "invalid domain name in your CSR". And this is because the domain at the moment is the IP address of the Raspberry Pi.
 
 <img src="/media/new-error.png">
