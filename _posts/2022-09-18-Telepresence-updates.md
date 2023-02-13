@@ -1,5 +1,18 @@
 # Amina's updates on the telepresence robot
 
+## Feb 13
+
+Troubleshooting day...Notes:
+- Camera starts acting up if CSR is in the git directory
+- Audio issues can be because of:
+  - Microphone Permissions: The getUserMedia() API requires user permission to access the microphone. If the permission is not granted, the API will not work.
+  - Microphone Hardware: Ensure that the microphone is properly connected to the Raspberry Pi and is working correctly.
+  - Browser Compatibility: Different browsers may have different support levels for WebRTC and getUserMedia(). Try using a different browser to see if the issue is resolved.
+  - Operating System: Check to see if the operating system is compatible with WebRTC and has the necessary libraries and dependencies installed.
+  - WebRTC Library: Ensure that the WebRTC library being used is compatible with the Raspberry Pi and has been properly configured.
+- What I suspect is happening is that because there is no constant audio connection (only earphones), Pi does not read a source of audio input/output, which breaks getUserMedia(). I should confirm it next time.
+- And I am still trying to figure out what is wrong with the SSL installation. Purchasing a domain might be a solution, but there could be a workaround that I am not seeing for testing purposes!
+
 ## Feb 12
 
 - [x] Updated and re-generated CSR certificate
