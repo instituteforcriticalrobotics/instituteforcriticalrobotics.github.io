@@ -1426,7 +1426,7 @@
   (symbol (lib_id "power:GND") (at 55.88 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 037f1880-5de4-468c-b65b-53d07765d125)
-    (property "Reference" "#PWR01" (id 0) (at 55.88 45.72 0)
+    (property "Reference" "#PWR?" (id 0) (at 55.88 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 55.88 44.45 0))
@@ -1477,7 +1477,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 55.88 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 2f61c32a-dbc4-4f7f-88fa-a7918fdf498f)
-    (property "Reference" "#FLG01" (id 0) (at 55.88 37.465 0)
+    (property "Reference" "#FLG?" (id 0) (at 55.88 37.465 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (id 1) (at 55.88 34.29 0))
@@ -1735,7 +1735,7 @@
   (symbol (lib_id "power:GND") (at 111.76 135.89 270) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid d0d05e6d-321d-46bb-90f5-7c4d5a7ae710)
-    (property "Reference" "#PWR02" (id 0) (at 105.41 135.89 0)
+    (property "Reference" "#PWR?" (id 0) (at 105.41 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 107.95 135.8899 90)
@@ -1796,13 +1796,13 @@
 
   (symbol_instances
     (path "/2f61c32a-dbc4-4f7f-88fa-a7918fdf498f"
-      (reference "#FLG01") (unit 1) (value "PWR_FLAG") (footprint "")
+      (reference "#FLG?") (unit 1) (value "PWR_FLAG") (footprint "")
     )
     (path "/037f1880-5de4-468c-b65b-53d07765d125"
-      (reference "#PWR01") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/d0d05e6d-321d-46bb-90f5-7c4d5a7ae710"
-      (reference "#PWR02") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/a46b4677-1fc5-48b5-918a-b2e7aa7e56e8"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
