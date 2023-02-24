@@ -9,3 +9,8 @@ To begin, we must first understand all the different components found in the rob
 ## Inkscape Sketch
 
 <img src="/media/robotWiring.svg">
+
+## Modification
+
+23/02/22
+The MaxSonar sensors are connected to each other and there is an extra wire which needs to also be connected somewhere. I'm not sure where yet. 
