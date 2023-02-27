@@ -1,5 +1,11 @@
 # Amina's updates on the telepresence robot
 
+## Feb 27
+
+To make HTTPS connection work: need a domain name. Ask Michael if OK with getting an ICR domain (like `icr-nyuad.com`?) Costs around $10 per year on `namecheap.com`. Can purchase myself and ask for reimbursement.
+
+This way, can install SSL certificate and proceed with testing. Otherwise, it is very difficult to tell if mic/camera can be accessed through external connections to the server. But I am figuring this out. Will come with updates.
+
 ## Feb 13
 
 Troubleshooting day...Notes:
