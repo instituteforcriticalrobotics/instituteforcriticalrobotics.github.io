@@ -2,7 +2,7 @@
 
 ## Mar 1-3
 
-- [x] Bought the domain name
+- [x] Bought the domain name `instituteforcriticalrobotics.org`
 - [x] Contacted IT to register on DNS
 - [x] Reverted all the SSL (self-signed) mainpulations on local repo to start from the blank state with a registered SSL
 - [ ] Currently waiting for the response from IT to start moving the website and the codebase files to the new domain  
