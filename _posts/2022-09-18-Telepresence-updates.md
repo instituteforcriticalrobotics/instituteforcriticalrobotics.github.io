@@ -1,5 +1,12 @@
 # Amina's updates on the telepresence robot
 
+## Mar 1-3
+
+- [x] Bought the domain name
+- [x] Contacted IT to register on DNS
+- [x] Reverted all the SSL (self-signed) mainpulations on local repo to start from the blank state with a registered SSL
+- [ ] Currently waiting for the response from IT to start moving the website and the codebase files to the new domain  
+
 ## Feb 27
 
 To make HTTPS connection work: need a domain name. Ask Michael if OK with getting an ICR domain (like `icr-nyuad.com`?) Costs around $10 per year on `namecheap.com`. Can purchase myself and ask for reimbursement.
