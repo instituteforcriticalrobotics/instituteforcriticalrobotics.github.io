@@ -1,5 +1,15 @@
 # Amina's updates on the telepresence robot
 
+## Mar 6: Backend Updates
+- [x] Generated (for the 1000th time -- let's hope it really works this time!) the CSR files for the domain
+- [x] Sent activation request for the SSL; Michael will receive confirmation details via email
+- [x] Working with the IT team to register domain on the DNS  
+
+Nexts steps:
+- [ ] Wait for the SSL activation
+- [ ] Finally move domain to point to our server via DNS
+- [ ] Start testing!
+
 ## Mar 1-3
 
 - [x] Bought the domain name `instituteforcriticalrobotics.org`
