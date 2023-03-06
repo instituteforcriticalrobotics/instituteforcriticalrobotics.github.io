@@ -5,6 +5,14 @@
 - [x] Sent activation request for the SSL; Michael will receive confirmation details via email
 - [x] Working with the IT team to register domain on the DNS  
 
+## Meeting with IT notes regarding the DNS and hosting:
+- They provide hosting services with their DMZ (not sure what this stands for);
+- These services can use the domain name we've registered `instituteforcriticalrobotics.org` and provide more security. In summary: we will be outsorcing the networking tasks to them;
+- Can be hosted on Windows, MacOS, or Linux. I mentioned that Linux is preferred;
+- They asked about memory, RAM, and CPU requirements. I mentioned this will depend on the projects that the ICR decides to host. Michael, what are your thoughts on this?
+- If additional services like SQL, more space, etc. is required, we can let them know.
+- They will send us a follow-up email with their fees etc. I think this is a very safe bet compared to hosting services online, because it is in-house (NYU) and provides additional security/maintanance for less fee.
+
 Nexts steps:
 - [ ] Wait for the SSL activation
 - [ ] Finally move domain to point to our server via DNS
