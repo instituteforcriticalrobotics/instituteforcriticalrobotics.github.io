@@ -15,7 +15,7 @@
 
 Nexts steps:
 - [ ] Wait for the SSL activation
-- [ ] Finally move domain to point to our server via DNS
+- [ ] Follow-up with IT with our preferences for hosting/DNS
 - [ ] Start testing!
 
 ## Mar 1-3
