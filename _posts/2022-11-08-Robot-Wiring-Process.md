@@ -4,6 +4,9 @@
 
 ![image](https://user-images.githubusercontent.com/125130687/224054340-bcbcc589-ae8f-42e9-824b-3f6bcebd990c.png)
 
+NP = NeoPixel
+MXS = MaxSonar
+
 ## Modification
 
 23/02/22
