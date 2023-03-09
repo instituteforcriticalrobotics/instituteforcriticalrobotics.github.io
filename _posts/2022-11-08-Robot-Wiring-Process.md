@@ -1,5 +1,7 @@
 # Robot Wiring Process
 
+Newest edits are at the top, oldest at the bottom.
+
 ## Wiring to Arduino
 
 ![image](https://user-images.githubusercontent.com/125130687/224054340-bcbcc589-ae8f-42e9-824b-3f6bcebd990c.png)
