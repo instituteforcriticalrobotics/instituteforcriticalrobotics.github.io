@@ -1,12 +1,12 @@
-*Created 10th March, 2023  
-*Record of code being tested  
+*Created 10th March, 2023*  
+*Record of code being tested*  
+**Markdown cheatsheet: https://www.markdownguide.org/cheat-sheet/**
 
-#Code for PeopleBot
+# Code for PeopleBot
 
-## March 8th, 2023  
-## Wheel test  
+## March 8th, 2023  - Wheel test  
 
-This code was used to test the motorcontroller:  
+This code was used to test the motor controller (MC):  
 ````
 #include <SoftwareSerial.h>
 
@@ -36,8 +36,8 @@ void loop() {
 }   
 ````
 
-This is what we found out:  
-- We are using software serial instead of a PWM port (~).  
-- use #include <SoftwareSerial.h> to enable.  
+What we learned:  
+- We are using software serial instead of a PWM pin (~).  
+- use #include <SoftwareSerial.h> to enable software serial.  
 - Values between 0-128 control M1 (0-63 forward, 64 stop, 65-127 backward).  
 - Values between 128-255 control M2 (128-190 forward, 191 stop,192-255 backward).  
