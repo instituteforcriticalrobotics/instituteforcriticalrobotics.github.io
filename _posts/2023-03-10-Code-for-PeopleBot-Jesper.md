@@ -4,9 +4,31 @@
 
 # Code for PeopleBot
 
-## March 8th, 2023  - Wheel test  
+## March 11th, 2023 - Ultrasonic sensor test
+What we did:  
+- ssds
 
-This code was used to test the motor controller (MC):  
+What we learned:  
+- sdsd
+
+Next steps:
+- sdsd
+
+## March 8th, 2023  - Wheel test  
+What we did:  
+- Tested the motor controller (MC).
+
+What we learned:  
+- We are using software serial instead of a PWM pin (~).  
+- use #include <SoftwareSerial.h> to enable software serial.  
+- Values between 0-128 control M1 (0-63 forward, 64 stop, 65-127 backward).  
+- Values between 128-255 control M2 (128-190 forward, 191 stop,192-255 backward).  
+
+Next steps:
+- Test ultrsonic sensors  
+
+
+This code was used to test the MC:  
 ````
 #include <SoftwareSerial.h>
 
@@ -36,8 +58,3 @@ void loop() {
 }   
 ````
 
-What we learned:  
-- We are using software serial instead of a PWM pin (~).  
-- use #include <SoftwareSerial.h> to enable software serial.  
-- Values between 0-128 control M1 (0-63 forward, 64 stop, 65-127 backward).  
-- Values between 128-255 control M2 (128-190 forward, 191 stop,192-255 backward).  
