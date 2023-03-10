@@ -1,5 +1,5 @@
-**Created 10th March, 2023  
-**Record of code being tested  
+*Created 10th March, 2023  
+*Record of code being tested  
 
 #Code for PeopleBot
 
@@ -7,7 +7,7 @@
 ## Wheel test  
 
 This code was used to test the motorcontroller:  
-
+````
 #include <SoftwareSerial.h>
 
 // Pin 4 is transmit data from Arduino to the
@@ -34,6 +34,7 @@ void motorsStop() {
 void loop() {
   // put your main code here, to run repeatedly:
 }   
+````
 
 This is what we found out:  
 - We are using software serial instead of a PWM port (~).  
