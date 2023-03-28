@@ -4,15 +4,19 @@
 
 # Code for PeopleBot
 
-## March 11th, 2023 - Ultrasonic sensor test
+## March 28th, 2023 - Ultrasonic sensor test
 What we did:  
-- ssds
+- Tested sensors
 
 What we learned:  
-- sdsd
+- Use running average or just every 10 values take the average to decide how to move.
+- Compare side sensors and which ever is larger, turn to that side.
 
 Next steps:
-- sdsd
+- Get motors moving in response to sensor data.
+
+Code:
+Sensors work with simple code File > Examples > Basic > AnalogSerialReader
 
 ## March 8th, 2023  - Wheel test  
 What we did:  
@@ -26,7 +30,6 @@ What we learned:
 
 Next steps:
 - Test ultrsonic sensors  
-
 
 This code was used to test the MC:  
 ````
