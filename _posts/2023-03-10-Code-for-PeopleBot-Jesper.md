@@ -3,6 +3,75 @@
 **Markdown cheatsheet: https://www.markdownguide.org/cheat-sheet/**
 
 # Code for PeopleBot
+
+## March 31st, 2023 - Michael Shiloh
+I'm not sure why Jesper's code below wasn't working, but this works in that the motors do the right thing based on the A2 distance measuring sensor. However there is still something weird going on in that upon reset the motors twitch a bit. By turning on debugging it seems that sometimes the motor 
+controller is sent different values prior to being reset, and then the Arduino resets again (as evidenced by the message in `setup() `
+
+````
+
+const int FORWARD = 0;
+const int REVERSE = 1;
+const int LEFT = 0;
+const int RIGHT = 1;
+
+int debug = false;
+
+#include <SoftwareSerial.h>
+
+// Pin 4 is transmit data from Arduino to the
+// motor controller. Pin 3 is unused at the
+// moment.
+SoftwareSerial mySerial(3, 4);  // RX, TX
+
+void setup() {
+  mySerial.begin(9600);
+  Serial.begin(9600);
+
+  Serial.println("Arduino reset");
+  motorsStop();
+}
+
+/* run a motor. You get to choose
+    which motor, which direction, and how fast
+
+   int which = which motor (0 or 1)
+   int direction = cw or ccw (0 or 1)
+   int speed = Speed of motor which can be between 0-255
+*/
+void motorRun(int which, int direction, int speed) {
+  speed = map(speed, 0, 255, 62, 1); // real speed is only 1-62
+  speed = constrain( speed, 0, 62);
+  if (direction) speed = speed + 64 ;
+  which ? motorWrite(speed) : motorWrite(256 - speed);
+}
+
+void motorsStop() {
+  // Values between 0-127 control M1
+  // 0-63 in one direction,65-127 in the other direction
+  // M1 stop = 64
+  // 128-255 control M2
+  // m2 stop = 256-64
+  motorWrite(64);
+  motorWrite(256 - 64);
+}
+
+void motorWrite(int value) {
+  if (debug) {
+    Serial.print("sending ");
+    Serial.println(value);
+  }
+  mySerial.write(value);
+}
+
+void loop() {
+  int forwardDistance = analogRead(A2);
+  if (debug) Serial.println(forwardDistance);
+  motorRun(LEFT, forwardDistance > 50 ? FORWARD : REVERSE, 100);
+  delay(2);
+}
+````
+
 ## March 31st, 2023 - Simple MC with ultrasonic sensors
 What we did:  
 - Tested sensors together with motors
