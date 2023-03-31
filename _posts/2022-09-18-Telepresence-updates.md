@@ -1,5 +1,10 @@
 # Amina's updates on the telepresence robot
 
+## Mar 31: Updates
+- [x] Followed-up with Michael and IT regarding the space requirements for hosting. Waiting for the IT response
+- [x] Got some tasks around servers on Linux and resolving audio on RasPi. Will get started with that over the weekend
+- [x] Will update my hours for Ramadan to be weekends/late evenings  
+
 ## Mar 6: Backend Updates
 - [x] Generated (for the 1000th time -- let's hope it really works this time!) the CSR files for the domain
 - [x] Sent activation request for the SSL; Michael will receive confirmation details via email
