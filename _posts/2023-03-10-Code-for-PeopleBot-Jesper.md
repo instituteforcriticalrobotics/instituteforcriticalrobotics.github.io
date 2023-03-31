@@ -52,7 +52,7 @@ void loop() {
   if (avg0 < minD) 
   {
     //make wheels stop
-    Serial.println("not enough space");
+    Serial.println("Not enough space :(");
     mySerial.write(64); //M1 stop
     mySerial.write(256 - 64); //M2 stop
   }
