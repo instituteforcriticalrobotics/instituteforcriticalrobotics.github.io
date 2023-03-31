@@ -14,7 +14,7 @@ What we learned:
 
 Next steps:
 - Get motors moving in response to sensor data.
-- Figure out how to stop wheel jerk
+- Figure out how to stop wheel jerk. There are libraries for accelerating wheels rather than going to a specific speed suddenly - might come in handly later.
 
 Code:
 ````
