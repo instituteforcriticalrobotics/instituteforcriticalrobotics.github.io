@@ -4,6 +4,11 @@
 
 # Code for PeopleBot
 
+## April 5th, 2023 - testing sensors
+![image](https://user-images.githubusercontent.com/125130687/229997135-c3756e31-4fd6-4bf4-8f27-84ab392c261b.png)
+
+used slightly modified code from *File > Examples > Basic > AnalogSerialReader* 
+
 ## April 5th, 2023 - testing an obstacle avoidance algorithm
 
 For the following algorithm (moving forward and backing up and turning around when sensing a wall with the front sensor):
