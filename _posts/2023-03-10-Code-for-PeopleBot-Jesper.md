@@ -6,7 +6,7 @@
 
 ## April 5th, 2023 - testing an obstacle avoidance algorithm
 
-For the following algorithm:
+For the following algorithm (moving forward and backing up and turning around when sensing a wall with the front sensor):
 
 ![image](https://user-images.githubusercontent.com/125130687/229988557-c569e050-9f9c-4436-b421-cefff37f29b8.png)
 
@@ -157,6 +157,13 @@ void turnLeft(int duration) { //rotate anti clockwise for some time
 }
 
 ````
+
+Things to be improved:
+Incorporate side sensors into obstacle sensing. 
+- Take some readings and come up with values for minimum distance from each sesnor before the robot needs to react. 
+- Make movement a little more natural by introducing some randomness. 
+- Test out motor acceleration to improve battery performance. 
+- How could the robot be made to be more welcoming so that people feel comfortable to interact with it?
 
 ## March 31st, 2023 - Michael Shiloh
 I'm not sure why Jesper's code below wasn't working, but this works in that the motors do the right thing based on the A2 distance measuring sensor. However there is still something weird going on in that upon reset the motors twitch a bit. By turning on debugging it seems that sometimes the motor 
