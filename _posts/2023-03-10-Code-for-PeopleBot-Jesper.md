@@ -4,6 +4,160 @@
 
 # Code for PeopleBot
 
+## April 5th, 2023 - testing an obstacle avoidance algorithm
+
+For the following algorithm:
+
+![image](https://user-images.githubusercontent.com/125130687/229988557-c569e050-9f9c-4436-b421-cefff37f29b8.png)
+
+The following code worked:
+````
+const int FORWARD = 0;
+const int REVERSE = 1;
+const int LEFT = 0;
+const int RIGHT = 1;
+
+int debug = false;
+
+int distanceA0 = 0;
+int distanceA1 = 0;
+int distanceA2 = 0;
+
+#include <SoftwareSerial.h>
+
+// Pin 4 is transmit data from Arduino to the
+// motor controller. Pin 3 is unused at the
+// moment.
+SoftwareSerial mySerial(3, 4);  // RX, TX
+
+void setup() {
+  mySerial.begin(9600);
+  Serial.begin(9600);
+
+  Serial.println("Arduino reset");
+  motorsStop();
+}
+
+void loop() {
+  int distanceA0 = analogRead(A0);
+  int distanceA1 = analogRead(A1);
+  int distanceA2 = analogRead(A2);
+  if (debug) Serial.println(distanceA0);
+  
+  //motorRun(LEFT, distanceA0 > 50 ? FORWARD : REVERSE, 100);
+  
+  //Go forward if space ahead, else back up
+  if (distanceA1 >= 20) {
+    goForward();
+  } else {
+    motorsStop();
+    delay(500);
+
+    //Back up until there is enough space
+    while (distanceA1 < 30) {
+    goBack(200);
+    distanceA1 = analogRead(A1);
+    }
+    
+    motorsStop();
+    delay(500);
+
+    //If backing up created enough space ahead, turn to the side which seems to have more space.
+    distanceA0 = analogRead(A0);
+    distanceA2 = analogRead(A2);
+    
+    if (distanceA2 > distanceA0) {
+      turnRight(1000);
+      motorsStop();
+      delay(500);
+    } else {
+      turnLeft(1000);
+      motorsStop();
+      delay(500);
+    }
+  }
+  delay(2);
+}
+
+/* run a motor. You get to choose
+    which motor, which direction, and how fast
+
+   int which = which motor (0 or 1)
+   int direction = cw or ccw (0 or 1)
+   int speed = Speed of motor which can be between 0-255
+*/
+void motorRun(int which, int direction, int speed) {
+  speed = map(speed, 0, 255, 62, 1); // real speed is only 1-62
+  speed = constrain( speed, 0, 62);
+  if (direction) speed = speed + 64 ;
+  which ? motorWrite(speed) : motorWrite(256 - speed);
+}
+
+void motorsStop() {
+  // Values between 0-127 control M1
+  // 0-63 in one direction,65-127 in the other direction
+  // M1 stop = 64
+  // 128-255 control M2
+  // m2 stop = 256-64
+  motorWrite(64);
+  motorWrite(256 - 64);
+}
+
+void motorWrite(int value) {
+  if (debug) {
+    Serial.print("sending ");
+    Serial.println(value);
+  }
+  mySerial.write(value);
+}
+
+void goForward() { //go forward until further notice
+
+  motorRun(RIGHT, 0, 100);
+  motorRun(LEFT, 0, 100);
+
+}
+
+//duration = 999 for indefinite 
+void goBack(int duration) { //back up for some time
+  motorRun(RIGHT, 1, 100);
+  motorRun(LEFT, 1, 100);
+
+  if (duration != 999) {
+    delay(duration);
+    motorsStop();
+  }
+
+}
+
+//duration = 999 for indefinite 
+void turnRight(int duration) { //rotate clockwise for some time
+
+  motorRun(RIGHT, 1, 100);
+  motorRun(LEFT, 0, 100);
+  
+  if (duration != 999) {
+    delay(duration);
+    motorsStop();
+  }
+
+}
+
+//duration = 999 for indefinite 
+void turnLeft(int duration) { //rotate anti clockwise for some time
+
+  motorRun(RIGHT, 0, 100);
+  motorRun(LEFT, 1, 100);
+  
+  if (duration != 999) {
+    delay(duration);
+    motorsStop();
+  }
+
+}
+
+````
+
 ## March 31st, 2023 - Michael Shiloh
 I'm not sure why Jesper's code below wasn't working, but this works in that the motors do the right thing based on the A2 distance measuring sensor. However there is still something weird going on in that upon reset the motors twitch a bit. By turning on debugging it seems that sometimes the motor 
 controller is sent different values prior to being reset, and then the Arduino resets again (as evidenced by the message in `setup() `
