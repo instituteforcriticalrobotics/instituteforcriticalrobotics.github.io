@@ -3,6 +3,18 @@
 **Markdown cheatsheet: https://www.markdownguide.org/cheat-sheet/**
 
 # Code for PeopleBot
+## April 7th, 2023 - wheels on the ground test
+Things learned:
+- It is very easy for a robot to be cute.
+- if we see something on the side, when we turn back we need to turn back more than we did initially so we don’t run into the again
+- turning is quicker than going straight because motors turning in opposite directions
+- for some reason back up is also quicker.
+- need to incorporate acceleration because robot wants to tip over when moving backward and stopping suddenly.
+- annoying to turn with dc motors because it is dependent on speed. if speed is changed all the delays need to be adjusted. Need to make it easier to do this adjustment.
+  - make a calibration code then make a table with values we can use i.e. at speed 100, it takes this many ms to turn 90 degrees.
+- What is another way that you can make a robot turn???
+
+Code: https://github.com/instituteforcriticalrobotics/instituteforcriticalrobotics.github.io/blob/main/src/obstacleAvoidance/README.md
 
 ## April 5th, 2023 - testing sensors
 ![image](https://user-images.githubusercontent.com/125130687/229997135-c3756e31-4fd6-4bf4-8f27-84ab392c261b.png)
