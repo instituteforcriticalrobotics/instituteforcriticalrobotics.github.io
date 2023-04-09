@@ -4,6 +4,7 @@
 - [x] Met with Michael to submit the IT form
 - [x] Shared wifi links with Ahmed to setup on new Raspi
 - [x] Updating my raspi for new software since I haven't updated it in a while (`sudo apt-get update` + `sudo apt-get upgrade`)
+  - Faced some errors when upgrading, so had to run `sudo apt-get upgrade --fix-errors`, but that also resulted in a lot of `failed to fetch...` warnings and errors. Perhaps this can be resolved once we have our virtual Ubuntu with a server/domain?
 - [x] Brainstorming ways around testing audio connection
 
 Also a to-do:
