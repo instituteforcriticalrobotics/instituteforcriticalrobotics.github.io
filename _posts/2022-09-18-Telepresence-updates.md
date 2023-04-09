@@ -1,5 +1,15 @@
 # Amina's updates on the telepresence robot
 
+## April 1-9: Updates
+- Shared wifi links with Ahmed to setup on new Raspi
+- Updating my raspi for new software since I haven't updated it in a while (`sudo apt-get update` + `sudo apt-get upgrade`)
+- Brainstorming ways around testing audio connection
+
+Also a to-do:
+- Check on SSL status since installing it on the domain
+- Start preparing instructions for the handover to next student
+- Start brainstorming on ways around new website frontend!
+
 ## Mar 31: Updates
 - [x] Followed-up with Michael and IT regarding the space requirements for hosting. Waiting for the IT response
 - [x] Got some tasks around servers on Linux and resolving audio on RasPi. Will get started with that over the weekend
