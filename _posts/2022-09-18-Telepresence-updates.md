@@ -5,6 +5,8 @@
 ## Summary and my conclusion:
 It is most optimal to wait until we get a stable Ubuntu to install latest updates and software needed for connection. Current Raspi software is unable to install latest software due to network issues that can be easily resolved with the IT's virtual machine. Virtual machine will also allow us to test the webRTC software easier by resolving the HTTPS issues.
 
+<img src="/media/april-errors.png">
+
 ## Tasks performed
 - [x] Met with Michael to submit the IT form
 - [x] Shared wifi links with Ahmed to setup on new Raspi
