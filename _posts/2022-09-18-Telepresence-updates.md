@@ -1,13 +1,18 @@
 # Amina's updates on the telepresence robot
 
-## April 1-9: Updates
+# April 1-9: Updates
+
+## Summary and my conclusion: it is most optimal to wait until we get a stable Ubuntu to install latest updates and software needed for connection.
+Current Raspi software is unable to install latest software due to network issues that can be easily resolved with the IT's virtual machine. Virtual machine will also allow us to test the webRTC software easier by resolving the HTTPS issues.
+
+## Tasks performed
 - [x] Met with Michael to submit the IT form
 - [x] Shared wifi links with Ahmed to setup on new Raspi
 - [x] Updating my raspi for new software since I haven't updated it in a while (`sudo apt-get update` + `sudo apt-get upgrade`)
   - Faced some errors when upgrading, so had to run `sudo apt-get upgrade --fix-errors`, but that also resulted in a lot of `failed to fetch...` warnings and errors. Perhaps this can be resolved once we have our virtual Ubuntu with a server/domain?
 - [x] Brainstorming ways around testing audio connection
 
-Also a to-do:
+Remaining to-do:
 - [ ] Check on SSL status since installing it on the domain
 - [ ] Start preparing instructions for the handover to next student
 - [ ] Start brainstorming on ways around new website frontend!
