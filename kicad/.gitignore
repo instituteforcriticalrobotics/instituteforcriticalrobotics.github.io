@@ -28,3 +28,9 @@ fp-lib-table
 # Exported from BOM files
 *.xml
 *.csv
+
+# all production output files: gerber and drills
+*.gbr
+*.gbrjob
+*.drl
+report.txt
