@@ -1,9 +1,10 @@
-place here code for obstacle avoidance using ultrasonic distance measuring
+/*
+obstacle avoidance using ultrasonic distance measuring
 sensors and the Dimension motor controller
 
 ## April 7th, 2023 - wheels on the ground test
+*/
 
-````
 const int FORWARD = 0;
 const int REVERSE = 1;
 const int LEFT = 0;
@@ -227,4 +228,3 @@ void turnLeft(int duration) { //rotate anti clockwise for some time
 
 }
 
-````
