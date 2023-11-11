@@ -1,8 +1,8 @@
 /*
-obstacle avoidance using ultrasonic distance measuring
-sensors and the Dimension motor controller
+  obstacle avoidance using ultrasonic distance measuring
+  sensors and the Dimension motor controller
 
-## April 7th, 2023 - wheels on the ground test
+  ## April 7th, 2023 - wheels on the ground test
 */
 
 const int FORWARD = 0;
@@ -10,8 +10,8 @@ const int REVERSE = 1;
 const int LEFT = 0;
 const int RIGHT = 1;
 const int fspeed = 60; //forward speed
-const int tspeed = fspeed/2; //turn speed since two wheels in opposite directions move faster
-const int bspeed = fspeed/6; //backward speed different since we might not expect the robot to move backward
+const int tspeed = fspeed / 2; //turn speed since two wheels in opposite directions move faster
+const int bspeed = fspeed / 6; //backward speed different since we might not expect the robot to move backward
 
 
 const int smallTurn = 1500;
@@ -44,9 +44,9 @@ void loop() {
   int distanceA1 = analogRead(A1);
   int distanceA2 = analogRead(A2);
   if (debug) Serial.println(distanceA0);
-  
+
   //motorRun(LEFT, distanceA0 > 50 ? FORWARD : REVERSE, 100);
-  
+
   //Go forward if space ahead, else back up
   if (distanceA1 >= 40) {
     Serial.println("Going straight");
@@ -55,10 +55,10 @@ void loop() {
     Serial.println("Something is ahead");
     motorsStop();
     delay(thinkTime);
-    
+
     Serial.println("What could it be?");
     delay(thinkTime);
-    
+
     int distanceA0 = analogRead(A0);
     int distanceA1 = analogRead(A1);
     int distanceA2 = analogRead(A2);
@@ -69,18 +69,18 @@ void loop() {
     }
     //Back up until there is enough space
     while (distanceA1 < 50) {
-    Serial.println("Backing up");
-    goBack(999);
-    distanceA1 = analogRead(A1);
+      Serial.println("Backing up");
+      goBack(999);
+      distanceA1 = analogRead(A1);
     }
-    
+
     motorsStop();
     delay(500);
 
     //If backing up created enough space ahead, turn to the side which seems to have more space.
     distanceA0 = analogRead(A0);
     distanceA2 = analogRead(A2);
-    
+
     if (distanceA2 > distanceA0) {
       Serial.println("Turning right");
       delay(1000);
@@ -89,7 +89,7 @@ void loop() {
       delay(500);
     } else {
       Serial.println("Turning left");
-      delay(1000); 
+      delay(1000);
       turnLeft(bigTurn);
       motorsStop();
       delay(500);
@@ -134,7 +134,7 @@ void loop() {
     int distanceA2 = analogRead(A2);
     Serial.println("What could it be?");
     delay(1000);
-    
+
     if (distanceA0 < 150) { //if there is a wall, turn right again and ignore
       Serial.println("It's nothing");
       delay(1000);
@@ -190,7 +190,7 @@ void goForward() { //go forward until further notice
 
 }
 
-//duration = 999 for indefinite 
+//duration = 999 for indefinite
 void goBack(int duration) { //back up for some time
   motorRun(RIGHT, 1, bspeed);
   motorRun(LEFT, 1, bspeed);
@@ -202,12 +202,12 @@ void goBack(int duration) { //back up for some time
 
 }
 
-//duration = 999 for indefinite 
+//duration = 999 for indefinite
 void turnRight(int duration) { //rotate clockwise for some time
 
   motorRun(RIGHT, 1, tspeed);
   motorRun(LEFT, 0, tspeed);
-  
+
   if (duration != 999) {
     delay(duration);
     motorsStop();
@@ -215,16 +215,15 @@ void turnRight(int duration) { //rotate clockwise for some time
 
 }
 
-//duration = 999 for indefinite 
+//duration = 999 for indefinite
 void turnLeft(int duration) { //rotate anti clockwise for some time
 
   motorRun(RIGHT, 0, tspeed);
   motorRun(LEFT, 1, tspeed);
-  
+
   if (duration != 999) {
     delay(duration);
     motorsStop();
   }
 
 }
-
